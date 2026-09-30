@@ -387,7 +387,7 @@
     "EaglerCraft1.12.2": {
       "title": "Eaglercraft 1.12.2",
       "category": "Life & Sim",
-      "entry": "EaglerCraft1.12.2/index.html",
+      "entry": "https://raw.githubusercontent.com/FrostsDev2/Website-Src-Files/main/EaglerCraft1.12.2/index.html",
       "icons": [
         "EaglerCraft1.12.2/icon.jpg"
       ]
@@ -1190,7 +1190,7 @@
     "test": {
       "title": "Test",
       "category": "Arcade",
-      "entry": "test.html"
+      "entry": "https://raw.githubusercontent.com/FrostsDev2/Website-Src-Files/main/test.html"
     }
   }
 }
