@@ -1,159 +1,1196 @@
 {
   "generatedAt": "2026-09-30",
   "games": {
-    "1v1lol":                          { "title": "1v1.LOL",                          "category": "Shooters & Action" },
-    "2048":                            { "title": "2048",                            "category": "Puzzle" },
-    "8ballclassic":                    { "title": "8 Ball Classic",                  "category": "Board & Cards" },
-    "8ballpool":                       { "title": "8 Ball Pool",                     "category": "Board & Cards" },
-    "adarkroom":                       { "title": "A Dark Room",                     "category": "Idle & Clickers" },
-    "asciispace":                      { "title": "ASCII Space",                     "category": "Arcade" },
-    "assessmentexamination":           { "title": "Assessment Examination",          "category": "Horror" },
-    "baldisbasics":                    { "title": "Baldi's Basics",                  "category": "Horror" },
-    "baseballbros":                    { "title": "Baseball Bros",                   "category": "Sports" },
-    "basketballlegends":               { "title": "Basketball Legends",              "category": "Sports" },
-    "basketballstars":                 { "title": "Basketball Stars",                "category": "Sports" },
-    "basketbrosio":                    { "title": "Basket Bros IO",                  "category": "Sports" },
-    "basketrandom":                    { "title": "Basket Random",                   "category": "Sports" },
-    "bitlife":                         { "title": "BitLife",                         "category": "Life & Sim" },
-    "blackholesquare":                 { "title": "Black Hole Square",               "category": "Arcade" },
-    "blackjack":                       { "title": "Blackjack",                       "category": "Board & Cards" },
-    "blockblast":                      { "title": "Block Blast",                     "category": "Puzzle" },
-    "bounceback":                      { "title": "Bounce Back",                     "category": "Arcade" },
-    "boxingrandom":                    { "title": "Boxing Random",                   "category": "Sports" },
-    "breaklock":                       { "title": "Break Lock",                      "category": "Puzzle" },
-    "breakout":                        { "title": "Breakout",                        "category": "Arcade" },
-    "btd4":                            { "title": "Bloons TD 4",                     "category": "Strategy & Defense" },
-    "chess":                           { "title": "Chess",                           "category": "Board & Cards" },
-    "chromedino":                      { "title": "Chrome Dino",                     "category": "Arcade" },
-    "clickerheroes":                   { "title": "Clicker Heroes",                  "category": "Idle & Clickers" },
-    "clusterrush":                     { "title": "Cluster Rush",                    "category": "Platformers" },
-    "cookieclicker":                   { "title": "Cookie Clicker",                  "category": "Idle & Clickers" },
-    "crazycattle3d":                   { "title": "Crazy Cattle 3D",                 "category": "Life & Sim" },
-    "crossyroad":                      { "title": "Crossy Road",                     "category": "Arcade" },
-    "csgoclicker":                     { "title": "CS:GO Clicker",                   "category": "Idle & Clickers" },
-    "cubefield":                       { "title": "Cube Field",                      "category": "Arcade" },
-    "cuttherope":                      { "title": "Cut the Rope",                    "category": "Puzzle" },
-    "cuttheropeholiday":               { "title": "Cut the Rope: Holiday",           "category": "Puzzle" },
-    "cuttheropetimetravel":            { "title": "Cut the Rope: Time Travel",       "category": "Puzzle" },
-    "dm1":                             { "title": "DM 1",                            "category": "Shooters & Action" },
-    "dm2":                             { "title": "DM 2",                            "category": "Shooters & Action" },
-    "doodlejump":                      { "title": "Doodle Jump",                     "category": "Platformers" },
-    "drifthunters":                    { "title": "Drift Hunters",                   "category": "Racing" },
-    "drivemad":                        { "title": "Drive Mad",                       "category": "Racing" },
-    "duckclicker":                     { "title": "Duck Clicker",                    "category": "Idle & Clickers" },
-    "ducklife":                        { "title": "Duck Life",                       "category": "Life & Sim" },
-    "ducklife2":                       { "title": "Duck Life 2",                     "category": "Life & Sim" },
-    "ducklife3":                       { "title": "Duck Life 3",                     "category": "Life & Sim" },
-    "ducklife4":                       { "title": "Duck Life 4",                     "category": "Life & Sim" },
-    "ducklife5":                       { "title": "Duck Life 5",                     "category": "Life & Sim" },
-    "EaglerCraft 1.8.8":               { "title": "Eaglercraft 1.8.8",               "category": "Life & Sim", "entry": "EaglerCraft 1.8.8/Minecraft 1.8.8.html" },
-    "EaglerCraft1.12.2":               { "title": "Eaglercraft 1.12.2",              "category": "Life & Sim" },
-    "earntodie":                       { "title": "Earn to Die",                     "category": "Racing" },
-    "eggycar":                         { "title": "Eggy Car",                        "category": "Racing" },
-    "escaperoad":                      { "title": "Escape Road",                     "category": "Arcade" },
-    "evilglitch":                      { "title": "Evil Glitch",                     "category": "Horror" },
-    "fallguys":                        { "title": "Fall Guys",                       "category": "Arcade" },
-    "fireboyandwatergirlforesttemple": { "title": "Fireboy & Watergirl: Forest Temple", "category": "Puzzle" },
-    "fivenightsatepstines":            { "title": "Five Nights at Epstein's",        "category": "Horror" },
-    "flappybird":                      { "title": "Flappy Bird",                     "category": "Arcade" },
-    "fnaf1":                           { "title": "FNAF 1",                          "category": "Horror" },
-    "fnaf2":                           { "title": "FNAF 2",                          "category": "Horror" },
-    "fnaf3":                           { "title": "FNAF 3",                          "category": "Horror" },
-    "fnaf4":                           { "title": "FNAF 4",                          "category": "Horror" },
-    "footballbros":                    { "title": "Football Bros",                   "category": "Sports" },
-    "fridaynightfunkin":               { "title": "Friday Night Funkin'",            "category": "Arcade" },
-    "geometrydashsubzero":             { "title": "Geometry Dash SubZero",           "category": "Platformers" },
-    "golfbattel":                      { "title": "Golf Battle",                     "category": "Sports" },
-    "googlebaseball":                  { "title": "Google Baseball",                 "category": "Sports" },
-    "googlesnake":                     { "title": "Google Snake",                    "category": "Arcade" },
-    "hextris":                         { "title": "Hextris",                         "category": "Puzzle" },
-    "hillclimb":                       { "title": "Hill Climb Racing",               "category": "Racing" },
-    "Hillclimbracing":                 { "title": "Hill Climb Racing (Alt)",         "category": "Racing" },
-    "hoh":                             { "title": "House of Hazards",                "category": "Platformers" },
-    "idlebreakout":                    { "title": "Idle Breakout",                   "category": "Idle & Clickers" },
-    "kartbros":                        { "title": "Kart Bros",                       "category": "Racing" },
-    "kindergarten-1":                  { "title": "Kindergarten",                    "category": "Horror" },
-    "kindergarten-2":                  { "title": "Kindergarten 2",                  "category": "Horror" },
-    "Kindergarten-3":                  { "title": "Kindergarten 3",                  "category": "Horror" },
-    "konnekt":                         { "title": "Konnekt",                         "category": "Puzzle" },
-    "kourio":                          { "title": "Kourio",                          "category": "Platformers" },
-    "learntofly":                      { "title": "Learn to Fly",                    "category": "Arcade" },
-    "learntofly3":                     { "title": "Learn to Fly 3",                  "category": "Arcade" },
-    "leveldevil":                      { "title": "Level Devil",                     "category": "Platformers" },
-    "linerider":                       { "title": "Line Rider",                      "category": "Arcade" },
-    "littlealchemy":                   { "title": "Little Alchemy",                  "category": "Puzzle" },
-    "monkeymart":                      { "title": "Monkey Mart",                     "category": "Life & Sim" },
-    "moto3xm2":                        { "title": "Moto X3M 2",                      "category": "Racing" },
-    "moto3xm3":                        { "title": "Moto X3M 3",                      "category": "Racing" },
-    "motox3m":                         { "title": "Moto X3M",                        "category": "Racing" },
-    "mountainbikeracer":               { "title": "Mountain Bike Racer",             "category": "Racing" },
-    "nut-simulator":                   { "title": "Nut Simulator",                   "category": "Idle & Clickers" },
-    "ovo":                             { "title": "OvO",                             "category": "Platformers" },
-    "ovo2":                            { "title": "OvO 2",                           "category": "Platformers" },
-    "pacman":                          { "title": "Pac-Man",                         "category": "Arcade" },
-    "paperio":                         { "title": "Paper.io",                        "category": "Arcade" },
-    "PingPongRandom":                  { "title": "Ping Pong Random",                "category": "Sports" },
-    "polytrack":                       { "title": "PolyTrack",                       "category": "Racing" },
-    "raftwars":                        { "title": "Raft Wars",                       "category": "Strategy & Defense" },
-    "retrobowl":                       { "title": "Retro Bowl",                      "category": "Sports" },
-    "riddleschool2":                   { "title": "Riddle School 2",                 "category": "Puzzle" },
-    "ritz":                            { "title": "Ritz",                            "category": "Platformers" },
-    "roadblocks":                      { "title": "Road Blocks",                     "category": "Puzzle" },
-    "rooftopsnipers":                  { "title": "Rooftop Snipers",                 "category": "Shooters & Action" },
-    "rrbc":                            { "title": "RRBC",                            "category": "Arcade" },
-    "ruffle":                          { "title": "Ruffle (Flash Games)",            "category": "Flash" },
-    "rufflethumbnails":                { "title": "Ruffle Thumbnails",               "category": "Flash" },
-    "run3":                            { "title": "Run 3",                           "category": "Platformers" },
-    "Sandboxcity":                     { "title": "Sandbox City",                    "category": "Life & Sim" },
-    "slitherio":                       { "title": "Slither.io",                      "category": "Arcade" },
-    "slope":                           { "title": "Slope",                           "category": "Arcade" },
-    "slope2":                          { "title": "Slope 2",                         "category": "Arcade" },
-    "smashkarts":                      { "title": "Smash Karts",                     "category": "Racing" },
-    "snake":                           { "title": "Snake",                           "category": "Arcade" },
-    "snowbattle":                      { "title": "Snow Battle",                     "category": "Shooters & Action" },
-    "snowrider3d":                     { "title": "Snow Rider 3D",                   "category": "Arcade" },
-    "soccerbros":                      { "title": "Soccer Bros",                     "category": "Sports" },
-    "SoccerRandom":                    { "title": "Soccer Random",                   "category": "Sports" },
-    "spacewaves":                      { "title": "Space Waves",                     "category": "Arcade" },
-    "SpeedStars":                      { "title": "Speed Stars",                     "category": "Racing" },
-    "stack":                           { "title": "Stack",                           "category": "Arcade" },
-    "stackball":                       { "title": "Stack Ball",                      "category": "Arcade" },
-    "stickdefenders":                  { "title": "Stick Defenders",                 "category": "Strategy & Defense" },
-    "stickmanbike":                    { "title": "Stickman Bike",                   "category": "Racing" },
-    "stickmanclimb":                   { "title": "Stickman Climb",                  "category": "Platformers" },
-    "stickmangolf":                    { "title": "Stickman Golf",                   "category": "Sports" },
-    "stickmanhook":                    { "title": "Stickman Hook",                   "category": "Platformers" },
-    "stickmansurvival":                { "title": "Stickman Survival",               "category": "Shooters & Action" },
-    "subwaysurfers":                   { "title": "Subway Surfers",                  "category": "Arcade" },
-    "subwaysurfersny":                 { "title": "Subway Surfers: New York",        "category": "Arcade" },
-    "subwaysurferssingapore":          { "title": "Subway Surfers: Singapore",       "category": "Arcade" },
-    "templerun":                       { "title": "Temple Run",                      "category": "Arcade" },
-    "tetris":                          { "title": "Tetris",                          "category": "Puzzle" },
-    "theimpossiablequiz":              { "title": "The Impossible Quiz",             "category": "Puzzle" },
-    "timeshooter":                     { "title": "Time Shooter",                    "category": "Shooters & Action" },
-    "timeshooter2":                    { "title": "Time Shooter 2",                  "category": "Shooters & Action" },
-    "timeshooter3":                    { "title": "Time Shooter 3",                  "category": "Shooters & Action" },
-    "tinyfishing":                     { "title": "Tiny Fishing",                    "category": "Life & Sim" },
-    "topspeedracing3d":                { "title": "Top Speed Racing 3D",             "category": "Racing" },
-    "towermaster":                     { "title": "Tower Master",                    "category": "Strategy & Defense" },
-    "trimps":                          { "title": "Trimps",                          "category": "Idle & Clickers" },
-    "tunnelrush":                      { "title": "Tunnel Rush",                     "category": "Arcade" },
-    "unicyclelegend":                  { "title": "Unicycle Legend",                 "category": "Platformers" },
-    "vex3":                            { "title": "Vex 3",                           "category": "Platformers" },
-    "vex4":                            { "title": "Vex 4",                           "category": "Platformers" },
-    "vex5":                            { "title": "Vex 5",                           "category": "Platformers" },
-    "vex6":                            { "title": "Vex 6",                           "category": "Platformers" },
-    "VollyRandom":                     { "title": "Volleyball Random",               "category": "Sports" },
-    "waterworks":                      { "title": "Waterworks",                      "category": "Puzzle" },
-    "webecomewhatwebehold":            { "title": "We Become What We Behold",        "category": "Horror" },
-    "worldshardestgame":               { "title": "World's Hardest Game",            "category": "Puzzle" },
-    "worldshardestgame2":              { "title": "World's Hardest Game 2",          "category": "Puzzle" },
-    "wrestlebros":                     { "title": "Wrestle Bros",                    "category": "Sports" },
-    "xx142b2exe":                      { "title": "XX142-B2.EXE",                    "category": "Shooters & Action" },
-    "zombsroyale":                     { "title": "Zombs Royale",                    "category": "Shooters & Action" },
-
-    "clpixel":                         { "title": "CL Pixel",                        "category": "Arcade",     "entry": "clpixel.html" },
-    "clrocketleague":                  { "title": "CL Rocket League",                "category": "Sports",     "entry": "clrocketleague.html" },
-    "test":                            { "title": "Test",                            "category": "Arcade",     "entry": "test.html" }
+    "1v1lol": {
+      "title": "1v1.LOL",
+      "category": "Shooters & Action",
+      "entry": "1v1lol/index.html",
+      "icons": [
+        "1v1lol/icon.jpg",
+        "1v1lol/favicon.png"
+      ]
+    },
+    "2048": {
+      "title": "2048",
+      "category": "Puzzle",
+      "entry": "2048/index.html",
+      "icons": [
+        "2048/icon.jpg",
+        "2048/favicon.ico"
+      ]
+    },
+    "8ballclassic": {
+      "title": "8 Ball Classic",
+      "category": "Board & Cards",
+      "entry": "8ballclassic/index.html",
+      "icons": [
+        "8ballclassic/icon.jpg"
+      ]
+    },
+    "8ballpool": {
+      "title": "8 Ball Pool",
+      "category": "Board & Cards",
+      "entry": "8ballpool/index.html",
+      "icons": [
+        "8ballpool/icon.jpg"
+      ]
+    },
+    "adarkroom": {
+      "title": "A Dark Room",
+      "category": "Idle & Clickers",
+      "entry": "adarkroom/index.html",
+      "icons": [
+        "adarkroom/icon.jpg",
+        "adarkroom/favicon.ico"
+      ]
+    },
+    "asciispace": {
+      "title": "ASCII Space",
+      "category": "Arcade",
+      "entry": "asciispace/index.html",
+      "icons": [
+        "asciispace/icon.jpg"
+      ]
+    },
+    "assessmentexamination": {
+      "title": "Assessment Examination",
+      "category": "Horror",
+      "entry": "assessmentexamination/index.html",
+      "icons": [
+        "assessmentexamination/icon.jpg"
+      ]
+    },
+    "baldisbasics": {
+      "title": "Baldi's Basics",
+      "category": "Horror",
+      "entry": "baldisbasics/index.html",
+      "icons": [
+        "baldisbasics/icon.jpg"
+      ]
+    },
+    "baseballbros": {
+      "title": "Baseball Bros",
+      "category": "Sports",
+      "entry": "baseballbros/baseballbros/index.html",
+      "icons": [
+        "baseballbros/baseballbros/icon.png",
+        "baseballbros/baseballbros/favicon.png",
+        "baseballbros/baseballbros/assets/favicon.png"
+      ]
+    },
+    "basketballlegends": {
+      "title": "Basketball Legends",
+      "category": "Sports",
+      "entry": "basketballlegends/index.html",
+      "icons": [
+        "basketballlegends/icon.jpg",
+        "basketballlegends/favicon.ico"
+      ]
+    },
+    "basketballstars": {
+      "title": "Basketball Stars",
+      "category": "Sports",
+      "entry": "basketballstars/index.html",
+      "icons": [
+        "basketballstars/icon.jpg"
+      ]
+    },
+    "basketbrosio": {
+      "title": "Basket Bros IO",
+      "category": "Sports",
+      "entry": "basketbrosio/basketbros.io/index.html",
+      "icons": [
+        "basketbrosio/icon.jpg",
+        "basketbrosio/basketbros.io/favicon.ico",
+        "basketbrosio/basketbros.io/assets/favicon.png"
+      ]
+    },
+    "basketrandom": {
+      "title": "Basket Random",
+      "category": "Sports",
+      "entry": "basketrandom/index.html",
+      "icons": [
+        "basketrandom/icon.jpg"
+      ]
+    },
+    "bitlife": {
+      "title": "BitLife",
+      "category": "Life & Sim",
+      "entry": "bitlife/index.html",
+      "icons": [
+        "bitlife/icon.jpg"
+      ]
+    },
+    "blackholesquare": {
+      "title": "Black Hole Square",
+      "category": "Arcade",
+      "entry": "blackholesquare/index.html",
+      "icons": [
+        "blackholesquare/icon.jpg",
+        "blackholesquare/icon.png"
+      ]
+    },
+    "blackjack": {
+      "title": "Blackjack",
+      "category": "Board & Cards",
+      "entry": "blackjack/index.html",
+      "icons": [
+        "blackjack/icon.jpg"
+      ]
+    },
+    "blockblast": {
+      "title": "Block Blast",
+      "category": "Puzzle",
+      "entry": "blockblast/index.html",
+      "icons": [
+        "blockblast/icon.jpg"
+      ]
+    },
+    "bounceback": {
+      "title": "Bounce Back",
+      "category": "Arcade",
+      "entry": "bounceback/index.html",
+      "icons": [
+        "bounceback/icon.jpg"
+      ]
+    },
+    "boxingrandom": {
+      "title": "Boxing Random",
+      "category": "Sports",
+      "entry": "boxingrandom/index.html",
+      "icons": [
+        "boxingrandom/icon.jpg"
+      ]
+    },
+    "breaklock": {
+      "title": "Break Lock",
+      "category": "Puzzle",
+      "entry": "breaklock/index.html",
+      "icons": [
+        "breaklock/icon.jpg",
+        "breaklock/assets/favicon.ico"
+      ]
+    },
+    "breakout": {
+      "title": "Breakout",
+      "category": "Arcade",
+      "entry": "breakout/index.html",
+      "icons": [
+        "breakout/icon.jpg"
+      ]
+    },
+    "btd4": {
+      "title": "Bloons TD 4",
+      "category": "Strategy & Defense",
+      "entry": "btd4/index.html",
+      "icons": [
+        "btd4/icon.jpg",
+        "btd4/favicon.ico"
+      ]
+    },
+    "chess": {
+      "title": "Chess",
+      "category": "Board & Cards",
+      "entry": "chess/index.html",
+      "icons": [
+        "chess/icon.png"
+      ]
+    },
+    "chromedino": {
+      "title": "Chrome Dino",
+      "category": "Arcade",
+      "entry": "chromedino/index.html",
+      "icons": [
+        "chromedino/icon.jpg"
+      ]
+    },
+    "clickerheroes": {
+      "title": "Clicker Heroes",
+      "category": "Idle & Clickers",
+      "entry": "clickerheroes/index.html",
+      "icons": [
+        "clickerheroes/icon.jpg",
+        "clickerheroes/favicon.ico"
+      ]
+    },
+    "clusterrush": {
+      "title": "Cluster Rush",
+      "category": "Platformers",
+      "entry": "clusterrush/index.html",
+      "icons": [
+        "clusterrush/icon.jpg"
+      ]
+    },
+    "cookieclicker": {
+      "title": "Cookie Clicker",
+      "category": "Idle & Clickers",
+      "entry": "cookieclicker/index.html",
+      "icons": [
+        "cookieclicker/icon.jpg",
+        "cookieclicker/img/favicon.ico"
+      ]
+    },
+    "crazycattle3d": {
+      "title": "Crazy Cattle 3D",
+      "category": "Life & Sim",
+      "entry": "crazycattle3d/index.html",
+      "icons": [
+        "crazycattle3d/icon.jpg"
+      ]
+    },
+    "crossyroad": {
+      "title": "Crossy Road",
+      "category": "Arcade",
+      "entry": "crossyroad/index.html",
+      "icons": [
+        "crossyroad/icon.jpg"
+      ]
+    },
+    "csgoclicker": {
+      "title": "CS:GO Clicker",
+      "category": "Idle & Clickers",
+      "entry": "csgoclicker/index.html",
+      "icons": [
+        "csgoclicker/icon.jpg"
+      ]
+    },
+    "cubefield": {
+      "title": "Cube Field",
+      "category": "Arcade",
+      "entry": "cubefield/index.html",
+      "icons": [
+        "cubefield/icon.jpg"
+      ]
+    },
+    "cuttherope": {
+      "title": "Cut the Rope",
+      "category": "Puzzle",
+      "entry": "cuttherope/index.html",
+      "icons": [
+        "cuttherope/icon.jpg"
+      ]
+    },
+    "cuttheropeholiday": {
+      "title": "Cut the Rope: Holiday",
+      "category": "Puzzle",
+      "entry": "cuttheropeholiday/index.html",
+      "icons": [
+        "cuttheropeholiday/icon.jpg",
+        "cuttheropeholiday/favicon.ico"
+      ]
+    },
+    "cuttheropetimetravel": {
+      "title": "Cut the Rope: Time Travel",
+      "category": "Puzzle",
+      "entry": "cuttheropetimetravel/index.html",
+      "icons": [
+        "cuttheropetimetravel/icon.jpg",
+        "cuttheropetimetravel/favicon.ico"
+      ]
+    },
+    "dm1": {
+      "title": "DM 1",
+      "category": "Shooters & Action",
+      "entry": "dm1/index.html",
+      "icons": [
+        "dm1/icon.jpg"
+      ]
+    },
+    "dm2": {
+      "title": "DM 2",
+      "category": "Shooters & Action",
+      "entry": "dm2/index.html",
+      "icons": [
+        "dm2/icon.jpg"
+      ]
+    },
+    "doodlejump": {
+      "title": "Doodle Jump",
+      "category": "Platformers",
+      "entry": "doodlejump/index.html",
+      "icons": [
+        "doodlejump/icon.jpg"
+      ]
+    },
+    "drifthunters": {
+      "title": "Drift Hunters",
+      "category": "Racing",
+      "entry": "drifthunters/index.html",
+      "icons": [
+        "drifthunters/icon.jpg"
+      ]
+    },
+    "drivemad": {
+      "title": "Drive Mad",
+      "category": "Racing",
+      "entry": "drivemad/index.html",
+      "icons": [
+        "drivemad/icon.jpg"
+      ]
+    },
+    "duckclicker": {
+      "title": "Duck Clicker",
+      "category": "Idle & Clickers",
+      "entry": "duckclicker/index.html",
+      "icons": [
+        "duckclicker/icon.jpg"
+      ]
+    },
+    "ducklife": {
+      "title": "Duck Life",
+      "category": "Life & Sim",
+      "entry": "ducklife/index.html",
+      "icons": [
+        "ducklife/icon.jpg"
+      ]
+    },
+    "ducklife2": {
+      "title": "Duck Life 2",
+      "category": "Life & Sim",
+      "entry": "ducklife2/index.html",
+      "icons": [
+        "ducklife2/icon.jpg"
+      ]
+    },
+    "ducklife3": {
+      "title": "Duck Life 3",
+      "category": "Life & Sim",
+      "entry": "ducklife3/index.html",
+      "icons": [
+        "ducklife3/icon.jpg"
+      ]
+    },
+    "ducklife4": {
+      "title": "Duck Life 4",
+      "category": "Life & Sim",
+      "entry": "ducklife4/index.html",
+      "icons": [
+        "ducklife4/icon.jpg"
+      ]
+    },
+    "ducklife5": {
+      "title": "Duck Life 5",
+      "category": "Life & Sim",
+      "entry": "ducklife5/index.html",
+      "icons": [
+        "ducklife5/icon.jpg"
+      ]
+    },
+    "EaglerCraft 1.8.8": {
+      "title": "Eaglercraft 1.8.8",
+      "category": "Life & Sim",
+      "entry": "EaglerCraft 1.8.8/Minecraft 1.8.8.html",
+      "icons": [
+        "EaglerCraft 1.8.8/icon.jpg"
+      ]
+    },
+    "EaglerCraft1.12.2": {
+      "title": "Eaglercraft 1.12.2",
+      "category": "Life & Sim",
+      "entry": "EaglerCraft1.12.2/index.html",
+      "icons": [
+        "EaglerCraft1.12.2/icon.jpg"
+      ]
+    },
+    "earntodie": {
+      "title": "Earn to Die",
+      "category": "Racing",
+      "entry": "earntodie/index.html",
+      "icons": [
+        "earntodie/icon.jpg"
+      ]
+    },
+    "eggycar": {
+      "title": "Eggy Car",
+      "category": "Racing",
+      "entry": "eggycar/index.html",
+      "icons": [
+        "eggycar/icon.jpg"
+      ]
+    },
+    "escaperoad": {
+      "title": "Escape Road",
+      "category": "Arcade",
+      "entry": "escaperoad/index.html",
+      "icons": [
+        "escaperoad/icon.jpg"
+      ]
+    },
+    "evilglitch": {
+      "title": "Evil Glitch",
+      "category": "Horror",
+      "entry": "evilglitch/index.html",
+      "icons": [
+        "evilglitch/icon.jpg"
+      ]
+    },
+    "fallguys": {
+      "title": "Fall Guys",
+      "category": "Arcade",
+      "entry": "fallguys/index.html",
+      "icons": [
+        "fallguys/icon.jpg"
+      ]
+    },
+    "fireboyandwatergirlforesttemple": {
+      "title": "Fireboy & Watergirl: Forest Temple",
+      "category": "Puzzle",
+      "entry": "fireboyandwatergirlforesttemple/index.html",
+      "icons": [
+        "fireboyandwatergirlforesttemple/icon.jpg"
+      ]
+    },
+    "fivenightsatepstines": {
+      "title": "Five Nights at Epstein's",
+      "category": "Horror",
+      "entry": "fivenightsatepstines/index.html",
+      "icons": [
+        "fivenightsatepstines/icon.jpg"
+      ]
+    },
+    "flappybird": {
+      "title": "Flappy Bird",
+      "category": "Arcade",
+      "entry": "flappybird/index.html",
+      "icons": [
+        "flappybird/icon.jpg"
+      ]
+    },
+    "fnaf1": {
+      "title": "FNAF 1",
+      "category": "Horror",
+      "entry": "fnaf1/index.html",
+      "icons": [
+        "fnaf1/icon.jpg"
+      ]
+    },
+    "fnaf2": {
+      "title": "FNAF 2",
+      "category": "Horror",
+      "entry": "fnaf2/index.html",
+      "icons": [
+        "fnaf2/icon.jpg"
+      ]
+    },
+    "fnaf3": {
+      "title": "FNAF 3",
+      "category": "Horror",
+      "entry": "fnaf3/index.html",
+      "icons": [
+        "fnaf3/icon.jpg"
+      ]
+    },
+    "fnaf4": {
+      "title": "FNAF 4",
+      "category": "Horror",
+      "entry": "fnaf4/index.html",
+      "icons": [
+        "fnaf4/icon.jpg"
+      ]
+    },
+    "footballbros": {
+      "title": "Football Bros",
+      "category": "Sports",
+      "entry": "footballbros/footballbros.io/index.html",
+      "icons": [
+        "footballbros/icon.jpg",
+        "footballbros/footballbros.io/favicon.png",
+        "footballbros/footballbros.io/assets/favicon.png"
+      ]
+    },
+    "fridaynightfunkin": {
+      "title": "Friday Night Funkin'",
+      "category": "Arcade",
+      "entry": "fridaynightfunkin/index.html",
+      "icons": [
+        "fridaynightfunkin/icon.jpg",
+        "fridaynightfunkin/favicon.png"
+      ]
+    },
+    "geometrydashsubzero": {
+      "title": "Geometry Dash SubZero",
+      "category": "Platformers",
+      "entry": "geometrydashsubzero/index.html",
+      "icons": [
+        "geometrydashsubzero/icon.jpg"
+      ]
+    },
+    "golfbattel": {
+      "title": "Golf Battle",
+      "category": "Sports",
+      "entry": "golfbattel/index.html",
+      "icons": [
+        "golfbattel/icon.jpg"
+      ]
+    },
+    "googlebaseball": {
+      "title": "Google Baseball",
+      "category": "Sports",
+      "entry": "googlebaseball/index.html",
+      "icons": [
+        "googlebaseball/icon.jpg"
+      ]
+    },
+    "googlesnake": {
+      "title": "Google Snake",
+      "category": "Arcade",
+      "entry": "googlesnake/index.html",
+      "icons": [
+        "googlesnake/icon.jpg"
+      ]
+    },
+    "hextris": {
+      "title": "Hextris",
+      "category": "Puzzle",
+      "entry": "hextris/index.html",
+      "icons": [
+        "hextris/icon.jpg",
+        "hextris/favicon.ico"
+      ]
+    },
+    "Hillclimbracing": {
+      "title": "Hill Climb Racing (Alt)",
+      "category": "Racing",
+      "entry": "Hillclimbracing/index.html",
+      "icons": [
+        "Hillclimbracing/icon.jpg",
+        "Hillclimbracing/favicon.ico"
+      ]
+    },
+    "hoh": {
+      "title": "House of Hazards",
+      "category": "Platformers",
+      "entry": "hoh/index.html",
+      "icons": [
+        "hoh/icon.jpg"
+      ]
+    },
+    "idlebreakout": {
+      "title": "Idle Breakout",
+      "category": "Idle & Clickers",
+      "entry": "idlebreakout/index.html",
+      "icons": [
+        "idlebreakout/icon.jpg"
+      ]
+    },
+    "kartbros": {
+      "title": "Kart Bros",
+      "category": "Racing",
+      "entry": "kartbros/index.html",
+      "icons": [
+        "kartbros/icon.jpg"
+      ]
+    },
+    "kindergarten-1": {
+      "title": "Kindergarten",
+      "category": "Horror",
+      "entry": "kindergarten-1/index.html",
+      "icons": [
+        "kindergarten-1/icon.jpg",
+        "kindergarten-1/TemplateData/favicon.ico"
+      ]
+    },
+    "kindergarten-2": {
+      "title": "Kindergarten 2",
+      "category": "Horror",
+      "entry": "kindergarten-2/index.html",
+      "icons": [
+        "kindergarten-2/icon.jpg",
+        "kindergarten-2/TemplateData/favicon.ico"
+      ]
+    },
+    "Kindergarten-3": {
+      "title": "Kindergarten 3",
+      "category": "Horror",
+      "entry": "Kindergarten-3/index.html",
+      "icons": [
+        "Kindergarten-3/icon.jpg",
+        "Kindergarten-3/TemplateData/favicon.ico"
+      ]
+    },
+    "konnekt": {
+      "title": "Konnekt",
+      "category": "Puzzle",
+      "entry": "konnekt/index.html"
+    },
+    "kourio": {
+      "title": "Kourio",
+      "category": "Platformers",
+      "entry": "kourio/index.html",
+      "icons": [
+        "kourio/icon.jpg"
+      ]
+    },
+    "learntofly": {
+      "title": "Learn to Fly",
+      "category": "Arcade",
+      "entry": "learntofly/2/index.html",
+      "icons": [
+        "learntofly/2/icon.jpg",
+        "learntofly/2/favicon.ico",
+        "learntofly/3/favicon.ico"
+      ]
+    },
+    "learntofly3": {
+      "title": "Learn to Fly 3",
+      "category": "Arcade",
+      "entry": "learntofly3/index.html",
+      "icons": [
+        "learntofly3/icon.jpg"
+      ]
+    },
+    "leveldevil": {
+      "title": "Level Devil",
+      "category": "Platformers",
+      "entry": "leveldevil/index.html",
+      "icons": [
+        "leveldevil/icon.jpg"
+      ]
+    },
+    "linerider": {
+      "title": "Line Rider",
+      "category": "Arcade",
+      "entry": "linerider/index.html",
+      "icons": [
+        "linerider/icon.jpg"
+      ]
+    },
+    "littlealchemy": {
+      "title": "Little Alchemy",
+      "category": "Puzzle",
+      "entry": "littlealchemy/index.html",
+      "icons": [
+        "littlealchemy/icon.jpg"
+      ]
+    },
+    "monkeymart": {
+      "title": "Monkey Mart",
+      "category": "Life & Sim",
+      "entry": "monkeymart/index.html",
+      "icons": [
+        "monkeymart/icon.jpg"
+      ]
+    },
+    "moto3xm2": {
+      "title": "Moto X3M 2",
+      "category": "Racing",
+      "entry": "moto3xm2/index.html",
+      "icons": [
+        "moto3xm2/icon.jpg"
+      ]
+    },
+    "moto3xm3": {
+      "title": "Moto X3M 3",
+      "category": "Racing",
+      "entry": "moto3xm3/index.html",
+      "icons": [
+        "moto3xm3/icon.jpg"
+      ]
+    },
+    "motox3m": {
+      "title": "Moto X3M",
+      "category": "Racing",
+      "entry": "motox3m/index.html",
+      "icons": [
+        "motox3m/icon.jpg"
+      ]
+    },
+    "mountainbikeracer": {
+      "title": "Mountain Bike Racer",
+      "category": "Racing",
+      "entry": "mountainbikeracer/index.html",
+      "icons": [
+        "mountainbikeracer/icon.jpg"
+      ]
+    },
+    "nut-simulator": {
+      "title": "Nut Simulator",
+      "category": "Idle & Clickers",
+      "entry": "nut-simulator/index.html",
+      "icons": [
+        "nut-simulator/icon.png",
+        "nut-simulator/images/icon.png"
+      ]
+    },
+    "ovo": {
+      "title": "OvO",
+      "category": "Platformers",
+      "entry": "ovo/index.html",
+      "icons": [
+        "ovo/icon.jpg"
+      ]
+    },
+    "ovo2": {
+      "title": "OvO 2",
+      "category": "Platformers",
+      "entry": "ovo2/index.html",
+      "icons": [
+        "ovo2/icon.jpg"
+      ]
+    },
+    "pacman": {
+      "title": "Pac-Man",
+      "category": "Arcade",
+      "entry": "pacman/index.html",
+      "icons": [
+        "pacman/icon.jpg",
+        "pacman/favicon.png"
+      ]
+    },
+    "paperio": {
+      "title": "Paper.io",
+      "category": "Arcade",
+      "entry": "paperio/index.html",
+      "icons": [
+        "paperio/icon.jpg"
+      ]
+    },
+    "PingPongRandom": {
+      "title": "Ping Pong Random",
+      "category": "Sports",
+      "entry": "PingPongRandom/index.html",
+      "icons": [
+        "PingPongRandom/icon.jpg"
+      ]
+    },
+    "polytrack": {
+      "title": "PolyTrack",
+      "category": "Racing",
+      "entry": "polytrack/index.html",
+      "icons": [
+        "polytrack/icon.jpg"
+      ]
+    },
+    "raftwars": {
+      "title": "Raft Wars",
+      "category": "Strategy & Defense",
+      "entry": "raftwars/index.html",
+      "icons": [
+        "raftwars/icon.jpg"
+      ]
+    },
+    "retrobowl": {
+      "title": "Retro Bowl",
+      "category": "Sports",
+      "entry": "retrobowl/index.html",
+      "icons": [
+        "retrobowl/icon.jpg",
+        "retrobowl/img/icon.jpg"
+      ]
+    },
+    "riddleschool2": {
+      "title": "Riddle School 2",
+      "category": "Puzzle",
+      "entry": "riddleschool2/index.html",
+      "icons": [
+        "riddleschool2/icon.jpg"
+      ]
+    },
+    "ritz": {
+      "title": "Ritz",
+      "category": "Platformers",
+      "entry": "ritz/index.html",
+      "icons": [
+        "ritz/favicon.png"
+      ]
+    },
+    "roadblocks": {
+      "title": "Road Blocks",
+      "category": "Puzzle",
+      "entry": "roadblocks/index.html"
+    },
+    "rooftopsnipers": {
+      "title": "Rooftop Snipers",
+      "category": "Shooters & Action",
+      "entry": "rooftopsnipers/index.html",
+      "icons": [
+        "rooftopsnipers/icon.jpg"
+      ]
+    },
+    "rrbc": {
+      "title": "RRBC",
+      "category": "Arcade",
+      "entry": "rrbc/index.html",
+      "icons": [
+        "rrbc/icon.jpg"
+      ]
+    },
+    "ruffle": {
+      "title": "Ruffle (Flash Games)",
+      "category": "Flash",
+      "entry": "ruffle/index.html"
+    },
+    "run3": {
+      "title": "Run 3",
+      "category": "Platformers",
+      "entry": "run3/index.html",
+      "icons": [
+        "run3/icon.jpg",
+        "run3/favicon.png"
+      ]
+    },
+    "Sandboxcity": {
+      "title": "Sandbox City",
+      "category": "Life & Sim",
+      "entry": "Sandboxcity/index.html",
+      "icons": [
+        "Sandboxcity/icon.jpg"
+      ]
+    },
+    "slitherio": {
+      "title": "Slither.io",
+      "category": "Arcade",
+      "entry": "slitherio/index.html",
+      "icons": [
+        "slitherio/icon.jpg"
+      ]
+    },
+    "slope": {
+      "title": "Slope",
+      "category": "Arcade",
+      "entry": "slope/index.html",
+      "icons": [
+        "slope/icon.jpg"
+      ]
+    },
+    "slope2": {
+      "title": "Slope 2",
+      "category": "Arcade",
+      "entry": "slope2/index.html",
+      "icons": [
+        "slope2/icon.jpg"
+      ]
+    },
+    "smashkarts": {
+      "title": "Smash Karts",
+      "category": "Racing",
+      "entry": "smashkarts/index.html",
+      "icons": [
+        "smashkarts/icon.jpg"
+      ]
+    },
+    "snake": {
+      "title": "Snake",
+      "category": "Arcade",
+      "entry": "snake/index.html"
+    },
+    "snowbattle": {
+      "title": "Snow Battle",
+      "category": "Shooters & Action",
+      "entry": "snowbattle/index.html",
+      "icons": [
+        "snowbattle/icon.jpg",
+        "snowbattle/TemplateData/favicon.ico"
+      ]
+    },
+    "snowrider3d": {
+      "title": "Snow Rider 3D",
+      "category": "Arcade",
+      "entry": "snowrider3d/index.html",
+      "icons": [
+        "snowrider3d/icon.jpg"
+      ]
+    },
+    "soccerbros": {
+      "title": "Soccer Bros",
+      "category": "Sports",
+      "entry": "soccerbros/soccerbros.gg/index.html",
+      "icons": [
+        "soccerbros/icon.jpg",
+        "soccerbros/soccerbros.gg/assets/favicon.png"
+      ]
+    },
+    "SoccerRandom": {
+      "title": "Soccer Random",
+      "category": "Sports",
+      "entry": "SoccerRandom/index.html",
+      "icons": [
+        "SoccerRandom/icon.jpg"
+      ]
+    },
+    "spacewaves": {
+      "title": "Space Waves",
+      "category": "Arcade",
+      "entry": "spacewaves/index.html",
+      "icons": [
+        "spacewaves/icon.jpg"
+      ]
+    },
+    "SpeedStars": {
+      "title": "Speed Stars",
+      "category": "Racing",
+      "entry": "SpeedStars/index.html",
+      "icons": [
+        "SpeedStars/icon.jpg"
+      ]
+    },
+    "stack": {
+      "title": "Stack",
+      "category": "Arcade",
+      "entry": "stack/index.html",
+      "icons": [
+        "stack/icon.jpg"
+      ]
+    },
+    "stackball": {
+      "title": "Stack Ball",
+      "category": "Arcade",
+      "entry": "stackball/index.html",
+      "icons": [
+        "stackball/icon.jpg"
+      ]
+    },
+    "stickdefenders": {
+      "title": "Stick Defenders",
+      "category": "Strategy & Defense",
+      "entry": "stickdefenders/index.html"
+    },
+    "stickmanbike": {
+      "title": "Stickman Bike",
+      "category": "Racing",
+      "entry": "stickmanbike/index.html",
+      "icons": [
+        "stickmanbike/icon.jpg"
+      ]
+    },
+    "stickmanclimb": {
+      "title": "Stickman Climb",
+      "category": "Platformers",
+      "entry": "stickmanclimb/index.html"
+    },
+    "stickmangolf": {
+      "title": "Stickman Golf",
+      "category": "Sports",
+      "entry": "stickmangolf/index.html"
+    },
+    "stickmanhook": {
+      "title": "Stickman Hook",
+      "category": "Platformers",
+      "entry": "stickmanhook/index.html",
+      "icons": [
+        "stickmanhook/icon.jpg"
+      ]
+    },
+    "stickmansurvival": {
+      "title": "Stickman Survival",
+      "category": "Shooters & Action",
+      "entry": "stickmansurvival/index.html",
+      "icons": [
+        "stickmansurvival/Icon.png"
+      ]
+    },
+    "subwaysurfers": {
+      "title": "Subway Surfers",
+      "category": "Arcade",
+      "entry": "subwaysurfers/index.html",
+      "icons": [
+        "subwaysurfers/icon.jpg"
+      ]
+    },
+    "subwaysurfersny": {
+      "title": "Subway Surfers: New York",
+      "category": "Arcade",
+      "entry": "subwaysurfersny/index.html",
+      "icons": [
+        "subwaysurfersny/icon.jpg"
+      ]
+    },
+    "subwaysurferssingapore": {
+      "title": "Subway Surfers: Singapore",
+      "category": "Arcade",
+      "entry": "subwaysurferssingapore/index.html",
+      "icons": [
+        "subwaysurferssingapore/icon.jpg"
+      ]
+    },
+    "templerun": {
+      "title": "Temple Run",
+      "category": "Arcade",
+      "entry": "templerun/index.html",
+      "icons": [
+        "templerun/icon.jpg"
+      ]
+    },
+    "tetris": {
+      "title": "Tetris",
+      "category": "Puzzle",
+      "entry": "tetris/index.html",
+      "icons": [
+        "tetris/icon.jpg"
+      ]
+    },
+    "theimpossiablequiz": {
+      "title": "The Impossible Quiz",
+      "category": "Puzzle",
+      "entry": "theimpossiablequiz/index.html",
+      "icons": [
+        "theimpossiablequiz/icon.jpg"
+      ]
+    },
+    "timeshooter": {
+      "title": "Time Shooter",
+      "category": "Shooters & Action",
+      "entry": "timeshooter/index.html",
+      "icons": [
+        "timeshooter/icon.jpg"
+      ]
+    },
+    "timeshooter2": {
+      "title": "Time Shooter 2",
+      "category": "Shooters & Action",
+      "entry": "timeshooter2/index.html",
+      "icons": [
+        "timeshooter2/icon.jpg"
+      ]
+    },
+    "timeshooter3": {
+      "title": "Time Shooter 3",
+      "category": "Shooters & Action",
+      "entry": "timeshooter3/index.html",
+      "icons": [
+        "timeshooter3/icon.jpg"
+      ]
+    },
+    "tinyfishing": {
+      "title": "Tiny Fishing",
+      "category": "Life & Sim",
+      "entry": "tinyfishing/index.html",
+      "icons": [
+        "tinyfishing/icon.jpg"
+      ]
+    },
+    "topspeedracing3d": {
+      "title": "Top Speed Racing 3D",
+      "category": "Racing",
+      "entry": "topspeedracing3d/index.html",
+      "icons": [
+        "topspeedracing3d/TemplateData/favicon.ico"
+      ]
+    },
+    "towermaster": {
+      "title": "Tower Master",
+      "category": "Strategy & Defense",
+      "entry": "towermaster/index.html"
+    },
+    "trimps": {
+      "title": "Trimps",
+      "category": "Idle & Clickers",
+      "entry": "trimps/index.html",
+      "icons": [
+        "trimps/favicon.ico"
+      ]
+    },
+    "tunnelrush": {
+      "title": "Tunnel Rush",
+      "category": "Arcade",
+      "entry": "tunnelrush/index.html",
+      "icons": [
+        "tunnelrush/icon.jpg"
+      ]
+    },
+    "unicyclelegend": {
+      "title": "Unicycle Legend",
+      "category": "Platformers",
+      "entry": "unicyclelegend/file/index.html",
+      "icons": [
+        "unicyclelegend/icon.png",
+        "unicyclelegend/file/icon.png",
+        "unicyclelegend/favicon.png"
+      ]
+    },
+    "vex3": {
+      "title": "Vex 3",
+      "category": "Platformers",
+      "entry": "vex3/index.html",
+      "icons": [
+        "vex3/icon.jpg"
+      ]
+    },
+    "vex4": {
+      "title": "Vex 4",
+      "category": "Platformers",
+      "entry": "vex4/index.html",
+      "icons": [
+        "vex4/icon.jpg"
+      ]
+    },
+    "vex5": {
+      "title": "Vex 5",
+      "category": "Platformers",
+      "entry": "vex5/index.html",
+      "icons": [
+        "vex5/icon.jpg"
+      ]
+    },
+    "vex6": {
+      "title": "Vex 6",
+      "category": "Platformers",
+      "entry": "vex6/index.html",
+      "icons": [
+        "vex6/icon.jpg",
+        "vex6/assets/icon.png",
+        "vex6/assets/icon.jpeg"
+      ]
+    },
+    "VollyRandom": {
+      "title": "Volleyball Random",
+      "category": "Sports",
+      "entry": "VollyRandom/index.html"
+    },
+    "waterworks": {
+      "title": "Waterworks",
+      "category": "Puzzle",
+      "entry": "waterworks/index.html"
+    },
+    "webecomewhatwebehold": {
+      "title": "We Become What We Behold",
+      "category": "Horror",
+      "entry": "webecomewhatwebehold/index.html"
+    },
+    "worldshardestgame": {
+      "title": "World's Hardest Game",
+      "category": "Puzzle",
+      "entry": "worldshardestgame/index.html"
+    },
+    "worldshardestgame2": {
+      "title": "World's Hardest Game 2",
+      "category": "Puzzle",
+      "entry": "worldshardestgame2/index.html"
+    },
+    "wrestlebros": {
+      "title": "Wrestle Bros",
+      "category": "Sports",
+      "entry": "wrestlebros/wrestlebros.io/index.html",
+      "icons": [
+        "wrestlebros/icon.jpg",
+        "wrestlebros/wrestlebros.io/favicon.png",
+        "wrestlebros/wrestlebros.io/assets/favicon.png"
+      ]
+    },
+    "xx142b2exe": {
+      "title": "XX142-B2.EXE",
+      "category": "Shooters & Action",
+      "entry": "xx142b2exe/index.html"
+    },
+    "zombsroyale": {
+      "title": "Zombs Royale",
+      "category": "Shooters & Action",
+      "entry": "zombsroyale/index.html"
+    },
+    "clpixel": {
+      "title": "CL Pixel",
+      "category": "Arcade",
+      "entry": "clpixel.html"
+    },
+    "clrocketleague": {
+      "title": "CL Rocket League",
+      "category": "Sports",
+      "entry": "clrocketleague.html"
+    },
+    "test": {
+      "title": "Test",
+      "category": "Arcade",
+      "entry": "test.html"
+    }
   }
 }
