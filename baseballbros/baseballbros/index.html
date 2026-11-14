@@ -1,0 +1,750 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>BASEBALL BROS! | Official Site</title>
+
+	<meta name="description" content="Online multiplayer baseball! Strikeouts, steals, and grand slams! Hit Nukes!" />
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="shortcut icon" type="image/png" href="./favicon.png">
+	<meta name="Keywords" content="Baseball, Play, Free, Online, Multiplayer, Games, IO, Sports, Scrolling, Friends">
+	<meta name="author" content="Blue Wizard Digital">
+
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://baseballbros.io" />
+	<meta property="og:title" content="Baseball Bros" />
+	<meta property="og:description" content="Online multiplayer baseball! Strikeouts, steals, and grand slams! Hit Nukes!" />
+	<meta property="og:image" content="https://baseballbros.io/splash.jpg" />
+	<link rel="manifest" href="manifest.json">
+
+		<script type="text/javascript" src="./BaseballBros.js?th=6242693"></script>
+
+	<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+			var meta = document.getElementById ("viewport");
+			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+		}
+		window.addEventListener('keydown', function(e) {
+			var tag = e.target.tagName;
+			if (tag !== 'INPUT' && tag !== 'TEXTAREA') {
+				e.preventDefault();
+			}
+		});
+		var aCo = "US";
+		var scrollerMessage = " WELCOME TO BASEBALL BROS! ARE YOU READY TO HIT SOME NUKES? WE'RE STILL MAKING ADJUSTMENTS- YOU CAN CHECK THE BOTTOM OF THE PAGE FOR THE LATEST CHANGES! IF YOU HAVE A GLITCH OR FEEDBACK, YOU CAN EMAIL INFO@BLUEWIZARD.COM!!! ";
+	</script>
+
+	<style>
+		html,body { margin: 0; padding: 0; height: 100%; background: #000000; color: orange; height: 100%; width: 100%; height: 100vh; width: 100vw; margin:0; padding:0;}
+		.body::-webkit-scrollbar { /* WebKit */
+ 			width: 0px;
+		}
+		#openfl-content { background: #000000; width: 100%; height: 100%; }
+		#spinner {
+			-webkit-transform-origin: 50% 50%;
+			-moz-transform-origin: 50% 50%;
+			-o-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			 width: 82px;
+			 height: 81px;
+			-webkit-animation: spin1 2s infinite linear;
+			-moz-animation: spin1 2s infinite linear;
+			-o-animation: spin1 2s infinite linear;
+			-ms-animation: spin1 2s infinite linear;
+			animation: spin1 2s infinite linear;
+		}
+
+
+
+
+		/* Main content styling */
+		#more {
+			display: flex;
+			justify-content: space-between;
+			background-color: #1a1a1a;
+			padding: 40px;
+			border-top: 0px solid #444;
+			color: #fff;
+			font-family: 'Arial', sans-serif;
+		}
+
+		.info-box {
+			width: 48%;
+			background-color: #222;
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+		}
+
+		h3 {
+			font-size: 24px;
+			color: #ffa500; /* Football-themed color */
+			margin-bottom: 15px;
+		}
+
+		p, b {
+			line-height: 1.6;
+			font-size: 16px;
+		}
+
+		p {
+			margin-bottom: 10px;
+		}
+
+		b {
+			color: #ffd700; /* Highlighted question color */
+		}
+
+
+		/* unvisited link */
+		a:link {
+		color: #ffd700;
+		}
+
+		/* visited link */
+		a:visited {
+		color: #ffd700;
+		}
+
+		/* mouse over link */
+		a:hover {
+		color: #ffd700;
+		}
+
+		/* selected link */
+		a:active {
+		color: #ffd700;
+		}
+
+		.notch-top-left {
+			width: 20px;
+			height: 20px;
+			background-color: var(--background-color, #1a1a1a);
+			position: absolute;
+			top: -10px;
+			left: -10px;
+			clip-path: polygon(100% 0, 0 100%, 100% 100%);
+		}
+
+		/* Footer styling */
+		footer {
+			background-color: #000;
+			padding: 20px 0;
+			text-align: center;
+			color: #ccc;
+			font-size: 14px;
+			border-top: 2px solid #444;
+			margin-top: 40px;
+			font-family: 'Arial', sans-serif;
+			border: 0;
+		}
+
+		.feedback-form {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 50vw;
+		height: 50vh;
+		background-color: #2A6DB0;
+		padding: 20px;
+		border: 4px solid #FF0000;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+		text-align: center;
+		color: #FFFFFF;
+		}
+		.feedback-form h3 {
+		font-size: 24px;
+		margin-bottom: 20px;
+		color: #FFFFFF;
+		text-shadow: 2px 2px #000000;
+		}
+		.feedback-form textarea {
+		width: calc(100% - 20px);
+		height: 50%;
+		margin-bottom: 10px;
+		padding: 10px;
+		font-size: 16px;
+		font-family: 'Courier New', Courier, monospace;
+		border: 3px solid #000000;
+		background-color: #000000; /* Black background */
+		color: #FFFFFF; /* White text */
+		resize: none;
+		box-sizing: border-box;
+		}
+		.feedback-form button {
+		width: 100%;
+		padding: 12px;
+		background-color: #FFD700; /* Yellowish background */
+		color: #000000;
+		border: 3px solid #FF0000;
+		border-radius: 0;
+		font-size: 18px;
+		cursor: pointer;
+		font-family: 'Courier New', Courier, monospace;
+		text-shadow: 1px 1px #000000;
+		}
+		.feedback-form button:hover {
+		background-color: #FFB800; /* Slightly darker yellow on hover */
+		color: #FFFFFF;
+		}
+
+  	</style>
+
+
+	<!-- Ads and analytics removed. gtag is kept as a stub because the game's
+	     SendEvent() calls it. -->
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){ window.dataLayer.push(arguments); }
+	</script>
+	
+	<!-- AIP interstitial/ad SDK removed. -->
+	<script>
+		// Ad system removed: the game's ShowAdBreak / ShowVideo calls are
+		// completed instantly below so gameplay is never blocked on ads.
+	</script>
+			
+	<script>
+
+		
+
+	function SetupMSNotification()
+	{
+		console.log("notifying");
+		if(typeof $msstart !== 'undefined')
+		{
+			console.log("notifying2");
+			var id = btoa("https:\/\/baseballbros.io\/sbros_364x180.png");
+			$msstart.scheduleNotificationAsync({title: "Unlock new bros now!",
+												description: "You are just about to unlock a new Bro! Who will it be?",
+												type: 1,
+												minDelayInSeconds: 24*60*60
+											}).then(response => {
+					console.log("notification response: "+response);
+				});
+			$msstart.scheduleNotificationAsync({title: "Hit nukes all over your bros!",
+											description: "New bros just waiting to be struck out! Unlock them now!",
+											type: 1,
+											minDelayInSeconds: 24*7*60*60
+										}).then(response => {
+				console.log("notification response: "+response);
+			});
+
+  		}
+	}
+
+	var msAdID;
+	function LoadVideo()
+	{
+		if(typeof $msstart !== 'undefined')
+		{
+			$msstart.loadAdsAsync().then(adInstance => {
+    			// Use the adInstance.instanceId to make a call to showAdsAsync
+				msAdID = adInstance.instanceId;
+			});
+
+			SetupMSNotification();
+		}
+	}
+
+	function ShowVideo(theUnitName=null)
+	{
+		// Ads removed: complete the video ad immediately so gameplay continues.
+		console.log('SHOW_VIDEO:'+theUnitName);
+		Main.DoneVideoAd(true);
+		window.focus();
+		window.document.getElementById('openfl-content').focus();
+	}
+	</script>
+
+	<!-- Firebase App (the core Firebase SDK) -->
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+	<!-- Firebase Authentication -->
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+	<!-- Firebase Firestore (Database) -->
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+	<script>
+		// Your web app's Firebase configuration
+  		const firebaseConfig = {
+			apiKey: "AIzaSyBuzj8XEP7-5kOFFhyuxylQ6P0B2G_ogsM",
+			authDomain: "baseball-bros-8dd7f.firebaseapp.com",
+			projectId: "baseball-bros-8dd7f",
+			storageBucket: "baseball-bros-8dd7f.firebasestorage.app",
+			messagingSenderId: "618024516218",
+			appId: "1:618024516218:web:11efff2d4b092aefaf99c3"  		};
+
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		const auth = firebase.auth();
+		const db = firebase.firestore();
+		var userData = "";
+
+		function triggerSignIn()
+		{
+			var provider = new firebase.auth.GoogleAuthProvider();
+			auth.signInWithPopup(provider);
+		}
+
+				// Save game data function
+		function saveGameData(gameDataValue) {
+			console.log('saving gameData:' + gameDataValue);
+			var userId = auth.currentUser.uid;
+			userData = gameDataValue;
+			db.collection('users').doc(userId).set({
+				gameData: gameDataValue
+			}).then(function() {
+				console.log('Game data saved');
+			}).catch(function(error) {
+				console.error('Error saving game data:', error);
+			});
+		}
+
+		// Load game data function
+		function loadGameData() { return userData; }
+
+		function loadGameDataAsync() {
+			var userId = auth.currentUser.uid;
+			db.collection('users').doc(userId).get().then(function(doc) {
+				if (doc.exists) {
+					userData = doc.data().gameData;
+					//Main.LoadGlobals();
+					console.log('Game data:', doc.data().gameData);
+					if (typeof Main != "undefined")
+					{
+						Main.LoadDataComplete();
+					}
+				// Use the game data in your game
+				} else {
+				console.log('No such document!');
+				}
+			}).catch(function(error) {
+				console.error('Error loading game data:', error);
+			});
+		}
+
+   // Firebase auth state observer
+   		auth.onAuthStateChanged(function(user) {
+      		if (user) {
+				loadGameDataAsync();
+				SendEvent('event', 'sign_in');
+				console.log('user signed in');
+			} else {
+				console.log('No user signed in');
+				SendEvent('event', 'sign_out');
+			}
+    	});
+
+		function signOut()
+		{
+			auth.signOut().then(() => {
+				Main.SignOutComplete();
+				console.log('signed out');
+			});
+		}
+
+		function isUserLoggedIn() {
+			return auth.currentUser !== null;
+		}
+	</script>
+
+	
+</head>
+<body style="overflow:hidden;">
+	<noscript>Enable JavaScript bro!</noscript>
+		<script>
+
+		//alert("Globals:"+localStorage.getItem("/:Globals").length);
+		/////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////
+		var url = window.location.href;
+		if(url.includes("www."))
+		{
+				url = url.replace("www.","");
+
+				var f = document.createElement('form');
+				f.action=url;
+				f.method='POST';
+				var i=document.createElement('input');
+				i.type='hidden';
+				i.name='FGlobals';
+				i.value=localStorage.getItem("/:Globals");
+				f.appendChild(i);
+
+				document.body.appendChild(f);
+				f.submit();
+		}
+		else
+		{
+				var aPost = "";
+								var aStorage = localStorage.getItem("/:Globals");
+				var aLen = 0;
+				if(aStorage != null && aStorage.length > 0)
+				{
+						aLen = aStorage.length;
+				}
+				if(aPost.length > aLen) localStorage.setItem("/:Globals", aPost);
+				if(aPost.length > 0 && aPost.length == aLen) localStorage.setItem("/:Globals", aPost);
+		}
+		/////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////
+
+	</script>
+
+    <div id="loading" style="position: absolute; z-index: 15; top: 60%; left: 50%; transform: translate(-50%, 0); background: black;">
+			<center><img src="assets/loading4.png"><br/>
+			<img src="assets/fbro.png">
+			<img src="assets/bbbro.png">
+			<img src="assets/sbro.png">
+			<img src="assets/wbro.png">
+			<img src="assets/kbro.png">
+			<img src="assets/kartbro.png">
+			<img src="assets/bbro.png">
+			<br/>
+			</center>
+	</div>
+	<!-- <div id="logo" style="position: fixed; bottom: 10px; right: 10px; z-index: 1000;"><img src="assets/bw_logo.gif"></div> -->
+
+
+	<div id="game2" style="width: 100%; height: 100%; ">
+		<div id="openfl-content"  onblur="window.focus();"
+												style="width: 100%; float:left;"
+									>
+			<script type="text/javascript">
+				lime.embed ("BaseballBros", "openfl-content", 0, 0, { parameters: {} });
+			</script>
+		</div>
+		<div id="preroll" style="width: 960px; height: 540px; display: none; position: absolute; top: 50%; left: 50%; z-index: 100; transform: translate(-50%, -50%);">
+		</div>
+
+
+		<div class="feedback-form" id="feedbackForm" style="display:none;">
+		<div class="feedback-form" id="feedbackForm" style="display:none;">
+			<h3>Report a Bug/Glitch</h3>
+			<textarea id="feedback" placeholder="Describe the bug or glitch with a lot of details, like how to make the glitch happen and anything else whether it seems useful or not..."></textarea>
+			<textarea id="email" placeholder="Email address (optional)" style="height: 50px;"></textarea>
+			<textarea id="discord" placeholder="Discord ID (optional)" style="height: 50px;"></textarea>
+			<button onclick="sendFeedback()" id="submitBtn">Submit Feedback</button>
+			<br/>
+			<br/>
+			<button onclick="document.getElementById('feedbackForm').style.display='none'" id="submitBtn">Cancel</button>
+			<p id="responseMsg"></p>
+		</div>
+		<script>
+			//                                                                                                                          var doFeedback = true;
+			function getOSFromUserAgent() {
+				const userAgent = navigator.userAgent;
+				const platform = navigator.platform;
+
+				// Check for common platforms and OS
+				if (/Windows NT/i.test(userAgent)) return 'Windows';
+				if (/Mac OS X/i.test(userAgent)) return 'macOS';
+				if (/Linux/i.test(userAgent)) return 'Linux';
+				if (/Android/i.test(userAgent)) return 'Android';
+				if (/iPhone|iPad|iPod/i.test(userAgent)) return 'iOS';
+				if (/CrOS/i.test(userAgent)) return 'Chrome OS';
+
+				// Default to the platform if no match
+				return platform || 'Unknown';
+			}
+			async function sendFeedback() {
+				var feedback = '*'+document.getElementById("feedback").value.trim()+'*';
+				var email = document.getElementById("email").value.trim();
+				var discord = document.getElementById("discord").value.trim();
+				const screenResolution = `${window.screen.width}x${window.screen.height}`;
+				const windowResolution = `${window.innerWidth}x${window.innerHeight}`;
+				var aOS = getOSFromUserAgent();
+				var aCity = "Unknown";
+                const hostname = window.location.hostname;
+				const gpu = (() => {
+					const canvas = document.createElement('canvas');
+					const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+					const debugInfo = gl?.getExtension('WEBGL_debug_renderer_info');
+					const gpuInfo = debugInfo ? gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL) : 'Unknown';
+
+					// Cleanup
+					canvas.remove(); // Remove the canvas from the DOM (if it was added)
+					return gpuInfo;
+				})();
+
+				feedback = feedback + '\nDomain: ' + hostname;
+				feedback = feedback + ', OS: ' + aOS;
+				feedback = feedback + ', Screen res: ' + screenResolution;
+				feedback = feedback + ', Window res: ' + windowResolution;
+				feedback = feedback + ', GPU: ' + gpu;
+				feedback = feedback + ', City: ' + aCity;
+				feedback = feedback + ', Email: ' + email;
+				feedback = feedback + ', Discord: ' + discord;
+
+				const responseMsg = document.getElementById("responseMsg");
+				const submitBtn = document.getElementById("submitBtn");
+
+				if (!feedback) {
+				alert("Please enter feedback.");
+				return;
+				}
+
+				submitBtn.disabled = true;
+				responseMsg.textContent = "Submitting...";
+
+				try {
+				const response = await fetch("sendFeedback.php", {
+					method: "POST",
+					headers: {
+					"Content-Type": "application/x-www-form-urlencoded"
+					},
+					body: new URLSearchParams({
+					feedback: feedback
+					})
+				});
+
+				const result = await response.json();
+
+				if (result.status === "success") {
+					document.getElementById("feedbackForm").style.display = "none"; // Close the feedback form
+					alert(result.message); // Show success message
+				} else {
+					document.getElementById("feedbackForm").style.display = "none"; // Close the feedback form
+					alert(result.message); // Show error message
+				}
+				} catch (error) {
+					document.getElementById("feedbackForm").style.display = "none"; // Close the feedback form
+					alert("Error submitting feedback. Please try again.");
+				}
+
+				submitBtn.disabled = false;
+			}
+		</script>
+
+
+
+	</div>
+	<br/>
+	<div tabindex="-1" id="more">
+				<div class="info-box">
+			<h3>About Baseball Bros</h3>
+			<p>Baseball Bros is a simple, fast-paced baseball game with all kinds of crazy action! With online multiplayer gameplay, tons of teams, and all kinds of wild baseball action!</p>
+			<p>The controls are very simple: Use either the arrow keys or WASD to control your bro. Space bar will swing, pitch, or steal depending on the situation.</p>
+			<br/>
+					</div>
+		<div class="info-box">
+			<h3>FAQ</h3>
+						<b>Why isn&#039;t the game loading?</b>
+			<p>You should check your internet connection and make sure our site isn't blocked. Also, disable all ad blockers.</p>
+						<b>How do I play?</b>
+			<p>Use your arrow keys and space bar! The rest is easy- pick your team and play ball!</p>
+						<b>Which browser should I use?</b>
+			<p>You should use Chrome. It is the only browser guaranteed to work. Baseball Bros has also been tested to work on Firefox and Safari, but not guaranteed.</p>
+									<b>Are there more Bros games?</b>
+			<p>Yes! Check out <a tabindex="-1" href="https://basketbros.io">Basket Bros</a>, <a tabindex="-1" href="https://footballbros.io">Football Bros</a>, <a tabindex="-1" href="https://soccerbros.gg">Soccer Bros</a></p>
+					</div>
+			</div>
+	<footer tabindex="-1">
+		<div class="footer-links">
+			<a tabindex="-1" href="https://bluewizard.com">Copyright 2026 Blue Wizard Digital</a> |
+			<a tabindex="-1" href="https://bluewizard.com/terms/">Terms of Service</a> |
+			<a tabindex="-1" href="https://bluewizard.com/privacypolicy/">Privacy Policy</a>
+		</div>
+	</footer>
+	<script>
+		// Ads removed. These stubs keep the game's external API working
+		// while no ad SDK is loaded. ShowVideo/ShowAdBreak complete
+		// immediately so gameplay is never blocked.
+
+		var lastUnitPlayed = "";
+		var adPrefix = "baseballbros-io";
+		var prerollId = "baseballbros_preroll";
+
+		function refreshTag(theTag) {}
+
+		function ShowUnitBannerAd(config) {}
+
+		function SetCGInviteLink() {}
+
+		function ShowAdBreak() {
+			Main.DoneInterstitialAd(false);
+		}
+
+		document.getElementById("openfl-content").addEventListener("wheel", doScroll);
+		document.getElementById("more").addEventListener("wheel", doScroll);
+		function doScroll(event) {
+  			window.scroll(0, window.scrollY + event.deltaY);
+		};
+
+		setInterval(function () {
+			if (document.activeElement.tagName == "IFRAME") {
+        		document.activeElement.blur();
+				document.getElementById('openfl-content').focus();
+    		}
+		}, 30);
+
+
+		var sid = "e96076e0dd833c35f053";
+		var lastStatusUpdate = 0;
+		var statusReq = null;
+		function updateStatus(fromEvent = false)
+		{
+			var now = Date.now();
+			if (now - lastStatusUpdate < 30000) return;
+			lastStatusUpdate = now;
+			var aStr = "recordsession.php?s="+sid;
+			if(fromEvent == true)  aStr = aStr + "&e=1"
+			if (statusReq == null) statusReq = new XMLHttpRequest();
+			statusReq.abort();
+			statusReq.open("GET", aStr);
+			statusReq.send();
+		}
+		function SendEvent(theEvent, theAction, theParms = '') {
+			if(theParms == '') {
+				gtag(theEvent, theAction);
+			} else {
+				gtag(theEvent, theAction, theParms);
+			}
+			updateStatus(true);
+			console.log("Sending event: " + theEvent + "/" + theAction + "/" + theParms);
+		}
+		updateStatus(true);
+
+		function HideAllAds(hideSides)
+		{
+			console.log("HideAllAds");
+		}
+
+		function HideAd(divName, justClear) {
+			if (justClear === undefined) justClear = false;
+			var aDiv = document.getElementById(divName);
+			if (aDiv != null) {
+				if (!justClear) {
+					aDiv.style.display = "none";
+					aDiv.style.visibility = "hidden";
+				}
+				aDiv.innerHTML = " ";
+			}
+		}
+
+		function killAdSubframes() {}
+
+		function ShowAdPosition(divName, theX, theY, xAlign, yAlign, doRefresh, screenW, screenH) {
+			// Ads removed: nothing to show.
+		}
+
+		function GamePlayStart() {
+			if(typeof gCrazySDK !== 'undefined')
+			{
+				console.log("GamePlayStart");
+				gCrazySDK.gameplayStart();
+			}
+		}
+
+		function GamePlayStop() {
+			if(typeof gCrazySDK !== 'undefined')
+			{
+				console.log("GamePlayStop");
+				gCrazySDK.gameplayStop();
+			}
+		}
+
+		function HappyTime() {
+			if(typeof gCrazySDK !== 'undefined')
+			{
+				console.log("happytime");
+				gCrazySDK.happytime();
+			}
+		}
+
+		const element = document.getElementById('openfl-content');
+		function keepFocus() {
+			element.focus();
+		}
+		element.addEventListener('blur', keepFocus);
+		element.addEventListener('focusout', keepFocus);
+	</script>
+	<script>
+		function trackSaveLifespan() {
+			try {
+				const NOW = Date.now();
+				const MS_IN_DAY = 1000 * 60 * 60 * 24;
+				
+				let saveCreated = localStorage.getItem('bros_save_created_ts');
+				let sessionCount = parseInt(localStorage.getItem('bros_local_session_count') || '0', 10);
+				
+				sessionCount++;
+				localStorage.setItem('bros_local_session_count', sessionCount);
+
+				let ageBucket = "";
+
+				if (!saveCreated) {
+					// No save found. Mark the creation time.
+					localStorage.setItem('bros_save_created_ts', NOW);
+					ageBucket = "0_Days (New or Wiped)";
+				} else {
+					// Save exists! Calculate age in days.
+					let ageInDays = Math.floor((NOW - parseInt(saveCreated, 10)) / MS_IN_DAY);
+					
+					if (ageInDays === 0) ageBucket = "0_Days (Same Day Return)";
+					else if (ageInDays === 1) ageBucket = "1_Day";
+					else if (ageInDays >= 2 && ageInDays <= 3) ageBucket = "2_to_3_Days";
+					else if (ageInDays >= 4 && ageInDays <= 7) ageBucket = "4_to_7_Days";
+					else ageBucket = "8_Plus_Days";
+				}
+
+				// Fire custom GA4 Event
+				gtag('event', 'Save_Persistence_Check', {
+					'save_age_bucket': ageBucket,
+					'local_session_count': sessionCount
+				});
+			} catch (e) {
+				// Catches strict incognito modes where localStorage is fully blocked
+				gtag('event', 'Save_Persistence_Check', {
+					'save_age_bucket': 'Storage_Blocked'
+				});
+			}
+		}
+		trackSaveLifespan();
+	</script>
+
+
+	<script>
+		var __tideJoinDebug = true;
+		window.addEventListener('message', function(ev) {
+			var d;
+			try { d = typeof ev.data === 'string' ? JSON.parse(ev.data) : ev.data; } catch(e) { return; }
+			if (!d || !d.__tide_join) return;
+			var words = String(d.__tide_join);
+			var attempts = 0, started = false;
+			function doJoin() {
+				if (started) return;
+				if (++attempts > 600) { console.log('[tide-join] gave up after 600 retries (2.5min)'); return; }
+				var M = window.Main;
+				// Check children first, also try Main.thisMain.children if that exists
+				var children = (M && M.children && M.children.length) ? M.children : null;
+				if (!children && M && M.thisMain && M.thisMain.children && M.thisMain.children.length) {
+					children = M.thisMain.children;
+				}
+				if (!children && M && document.querySelector('canvas')) {
+					// Try clicking the canvas to dismiss any intro screen
+					try { document.querySelector('canvas').click(); } catch(e) {}
+				}
+				if (!children) { setTimeout(doJoin, 250); return; }
+				for (var i = 0; i < children.length; i++) {
+					var ts = children[i];
+					if (ts && typeof ts.StartOnlineGame === 'function') {
+						console.log('[tide-join] SUCCESS calling StartOnlineGame with: ' + words);
+						started = true;
+						ts.StartOnlineGame(words);
+						return;
+					}
+				}
+				setTimeout(doJoin, 250);
+			}
+			doJoin();
+		});
+		console.log('[tide-join] listener registered');
+	</script>
+</body>
+</html>
