@@ -1,0 +1,3137 @@
+{
+  "generatedAt": "2026-11-13",
+  "source": "old-dir.txt (host rewritten to cdnBase); UGS-Assets import",
+  "titles": {
+    "2048": {
+      "title": "2048",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/2048/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/2048/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/2048/meta/apple-touch-icon.png"
+      ]
+    },
+    "1v1lol": {
+      "title": "1v1.LOL",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/1v1lol/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/1v1lol/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/1v1lol/favicon.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/1v1lol/logo.png"
+      ]
+    },
+    "8ballpool": {
+      "title": "8 Ball Pool",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/8ballpool/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/8ballpool/icon.jpg"
+      ]
+    },
+    "8ballclassic": {
+      "title": "8 Ball Classic",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/8ballclassic/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/8ballclassic/icon.jpg"
+      ]
+    },
+    "asciispace": {
+      "title": "ASCII Space",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/asciispace/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/asciispace/icon.jpg"
+      ]
+    },
+    "assessmentexamination": {
+      "title": "Assessment Examination",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/assessmentexamination/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/assessmentexamination/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/assessmentexamination/index.icon.png"
+      ]
+    },
+    "baldisbasics": {
+      "title": "Baldi's Basics",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/baldisbasics/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/baldisbasics/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/baldisbasics/TemplateData/progressLogo.Dark.png"
+      ]
+    },
+    "baseballbros": {
+      "title": "Baseball Bros",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/baseballbros/baseballbros/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/baseballbros/baseballbros/icon.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/baseballbros/baseballbros/assets/favicon.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/baseballbros/baseballbros/favicon.png"
+      ]
+    },
+    "basketbrosio": {
+      "title": "Basket Bros IO",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/basketbrosio/basketbros.io/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/basketbrosio/basketbros.io/assets/favicon.png"
+      ]
+    },
+    "basketballlegends": {
+      "title": "Basketball Legends",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/basketballlegends/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/basketballlegends/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/basketballlegends/assets/images/logo.png"
+      ]
+    },
+    "basketballstars": {
+      "title": "Basketball Stars",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/basketballstars/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/basketballstars/icon.jpg"
+      ]
+    },
+    "basketrandom": {
+      "title": "Basket Random",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/basketrandom/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/basketrandom/icon.jpg"
+      ]
+    },
+    "bitlife": {
+      "title": "BitLife",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bitlife/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bitlife/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bitlife/logo.png"
+      ]
+    },
+    "blackholesquare": {
+      "title": "Black Hole Square",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/blackholesquare/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/blackholesquare/icon.jpg"
+      ]
+    },
+    "blackjack": {
+      "title": "Blackjack",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/blackjack/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/blackjack/icon.jpg"
+      ]
+    },
+    "blockblast": {
+      "title": "Block Blast",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/blockblast/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/blockblast/icon.jpg"
+      ]
+    },
+    "bounceback": {
+      "title": "Bounce Back",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bounceback/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bounceback/icon.jpg"
+      ]
+    },
+    "boxingrandom": {
+      "title": "Boxing Random",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/boxingrandom/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/boxingrandom/icon.jpg"
+      ]
+    },
+    "breaklock": {
+      "title": "Break Lock",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/breaklock/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/breaklock/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/breaklock/assets/icons/icon-144x144.png"
+      ]
+    },
+    "breakout": {
+      "title": "Breakout",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/breakout/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/breakout/icon.jpg"
+      ]
+    },
+    "btd4": {
+      "title": "Bloons TD 4",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/btd4/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/btd4/icon.jpg"
+      ]
+    },
+    "chess": {
+      "title": "Chess",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/chess/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/chess/icon.png"
+      ]
+    },
+    "chromedino": {
+      "title": "Chrome Dino",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/chromedino/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/chromedino/icon.jpg"
+      ]
+    },
+    "clickerheroes": {
+      "title": "Clicker Heroes",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/clickerheroes/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/clickerheroes/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/clickerheroes/icons/icon-512.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/clickerheroes/images/achivement_icon-sheet0.png"
+      ]
+    },
+    "clusterrush": {
+      "title": "Cluster Rush",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/clusterrush/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/clusterrush/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/clusterrush/TemplateData/logo.png"
+      ]
+    },
+    "cookieclicker": {
+      "title": "Cookie Clicker",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cookieclicker/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cookieclicker/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cookieclicker/img/alchemylabIcon.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cookieclicker/img/alchemylabIconOff.png"
+      ]
+    },
+    "crazycattle3d": {
+      "title": "Crazy Cattle 3D",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/crazycattle3d/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/crazycattle3d/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/crazycattle3d/index.icon.png"
+      ]
+    },
+    "crossyroad": {
+      "title": "Crossy Road",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/crossyroad/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/crossyroad/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/crossyroad/sprites/crossy-road-logo.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/crossyroad/sprites/poki-icon.png"
+      ]
+    },
+    "csgoclicker": {
+      "title": "CS:GO Clicker",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/csgoclicker/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/csgoclicker/icon.jpg"
+      ]
+    },
+    "cubefield": {
+      "title": "Cube Field",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cubefield/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cubefield/icon.jpg"
+      ]
+    },
+    "cuttherope": {
+      "title": "Cut the Rope",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cuttherope/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cuttherope/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cuttherope/images/1024/ui/ph_logo.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cuttherope/images/768/ui/ph_logo.png"
+      ]
+    },
+    "cuttheropeholiday": {
+      "title": "Cut the Rope: Holiday",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cuttheropeholiday/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cuttheropeholiday/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cuttheropeholiday/images/1024/ui/ph_logo.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cuttheropeholiday/images/page/loader-logo.png"
+      ]
+    },
+    "cuttheropetimetravel": {
+      "title": "Cut the Rope: Time Travel",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cuttheropetimetravel/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cuttheropetimetravel/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cuttheropetimetravel/images/1024/time/menu_logo.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cuttheropetimetravel/images/1024/ui/ph_logo.png"
+      ]
+    },
+    "dm1": {
+      "title": "DM 1",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/dm1/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/dm1/icon.jpg"
+      ]
+    },
+    "dm2": {
+      "title": "DM 2",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/dm2/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/dm2/icon.jpg"
+      ]
+    },
+    "doodlejump": {
+      "title": "Doodle Jump",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/doodlejump/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/doodlejump/icon.jpg"
+      ]
+    },
+    "drifthunters": {
+      "title": "Drift Hunters",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/drifthunters/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/drifthunters/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/drifthunters/logo.png"
+      ]
+    },
+    "drivemad": {
+      "title": "Drive Mad",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/drivemad/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/drivemad/icon.jpg"
+      ]
+    },
+    "duckclicker": {
+      "title": "Duck Clicker",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/duckclicker/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/duckclicker/icon.jpg"
+      ]
+    },
+    "ducklife": {
+      "title": "Duck Life",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ducklife/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ducklife/icon.jpg"
+      ]
+    },
+    "ducklife2": {
+      "title": "Duck Life 2",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ducklife2/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ducklife2/icon.jpg"
+      ]
+    },
+    "ducklife3": {
+      "title": "Duck Life 3",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ducklife3/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ducklife3/icon.jpg"
+      ]
+    },
+    "ducklife4": {
+      "title": "Duck Life 4",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ducklife4/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ducklife4/icon.jpg"
+      ]
+    },
+    "ducklife5": {
+      "title": "Duck Life 5",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ducklife5/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ducklife5/icon.jpg"
+      ]
+    },
+    "earntodie": {
+      "title": "Earn to Die",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/earntodie/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/earntodie/icon.jpg"
+      ]
+    },
+    "eggycar": {
+      "title": "Eggy Car",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/eggycar/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/eggycar/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/eggycar/icon-128.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/eggycar/icon-16.png"
+      ]
+    },
+    "escaperoad": {
+      "title": "Escape Road",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/escaperoad/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/escaperoad/icon.jpg"
+      ]
+    },
+    "escape-road-city-3": {
+      "title": "Escape Road City 3",
+      "category": "",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Escape%20Road%20City%203/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Escape%20Road%20City%203/icon.png"
+      ]
+    },
+    "evilglitch": {
+      "title": "Evil Glitch",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/evilglitch/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/evilglitch/icon.jpg"
+      ]
+    },
+    "fallguys": {
+      "title": "Fall Guys",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fallguys/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fallguys/icon.jpg"
+      ]
+    },
+    "fireboyandwatergirlforesttemple": {
+      "title": "Fireboy & Watergirl: Forest Temple",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fireboyandwatergirlforesttemple/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fireboyandwatergirlforesttemple/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fireboyandwatergirlforesttemple/assets/images/branding/branding_logo_kizi.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fireboyandwatergirlforesttemple/cdn.fbrq/%40azerion/splash/assets/images/branding_logo_kizi.png"
+      ]
+    },
+    "fivenightsatepstines": {
+      "title": "Five Nights at Epstein's",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fivenightsatepstines/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fivenightsatepstines/icon.jpg"
+      ]
+    },
+    "flappybird": {
+      "title": "Flappy Bird",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/flappybird/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/flappybird/icon.jpg"
+      ]
+    },
+    "fnaf1": {
+      "title": "FNAF 1",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnaf1/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnaf1/icon.jpg"
+      ]
+    },
+    "fnaf2": {
+      "title": "FNAF 2",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnaf2/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnaf2/icon.jpg"
+      ]
+    },
+    "fnaf3": {
+      "title": "FNAF 3",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnaf3/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnaf3/icon.jpg"
+      ]
+    },
+    "fnaf4": {
+      "title": "FNAF 4",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnaf4/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnaf4/icon.jpg"
+      ]
+    },
+    "footballbros": {
+      "title": "Football Bros",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/footballbros/footballbros.io/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/footballbros/footballbros.io/assets/favicon.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/footballbros/footballbros.io/favicon.png"
+      ]
+    },
+    "fridaynightfunkin": {
+      "title": "Friday Night Funkin'",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fridaynightfunkin/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fridaynightfunkin/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fridaynightfunkin/favicon.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fridaynightfunkin/assets/images/icons/icon-bf-old.png"
+      ]
+    },
+    "geometrydashsubzero": {
+      "title": "Geometry Dash SubZero",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/geometrydashsubzero/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/geometrydashsubzero/icon.jpg"
+      ]
+    },
+    "golfbattel": {
+      "title": "Golf Battle",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/golfbattel/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/golfbattel/icon.jpg"
+      ]
+    },
+    "googlebaseball": {
+      "title": "Google Baseball",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/googlebaseball/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/googlebaseball/icon.jpg"
+      ]
+    },
+    "gunspin": {
+      "title": "Gun Spin",
+      "category": "",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/gunspin/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/gunspin/icon.png"
+      ]
+    },
+    "hextris": {
+      "title": "Hextris",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/hextris/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/hextris/icon.jpg"
+      ]
+    },
+    "Hillclimbracing": {
+      "title": "Hill Climb Racing (Alt)",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Hillclimbracing/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Hillclimbracing/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Hillclimbracing/fingersoft-logo.png"
+      ]
+    },
+    "hoh": {
+      "title": "House of Hazards",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/hoh/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/hoh/icon.jpg"
+      ]
+    },
+    "idlebreakout": {
+      "title": "Idle Breakout",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/idlebreakout/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/idlebreakout/icon.jpg"
+      ]
+    },
+    "kartbros": {
+      "title": "Kart Bros",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kartbros/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kartbros/icon.jpg"
+      ]
+    },
+    "kindergarten-1": {
+      "title": "Kindergarten",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kindergarten-1/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kindergarten-1/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kindergarten-1/TemplateData/unity-logo-dark.png"
+      ]
+    },
+    "kindergarten-2": {
+      "title": "Kindergarten 2",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kindergarten-2/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kindergarten-2/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kindergarten-2/TemplateData/unity-logo-dark.png"
+      ]
+    },
+    "Kindergarten-3": {
+      "title": "Kindergarten 3",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Kindergarten-3/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Kindergarten-3/icon.jpg"
+      ]
+    },
+    "kourio": {
+      "title": "Kourio",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kourio/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kourio/icon.jpg"
+      ]
+    },
+    "learntofly3": {
+      "title": "Learn to Fly 3",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/learntofly3/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/learntofly3/icon.jpg"
+      ]
+    },
+    "leveldevil": {
+      "title": "Level Devil",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/leveldevil/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/leveldevil/icon.jpg"
+      ]
+    },
+    "linerider": {
+      "title": "Line Rider",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/linerider/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/linerider/icon.jpg"
+      ]
+    },
+    "littlealchemy": {
+      "title": "Little Alchemy",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/littlealchemy/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/littlealchemy/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/littlealchemy/images/apple-touch-icon-precomposed.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/littlealchemy/images/loading-screen-logo.png"
+      ]
+    },
+    "EaglerCraft1.12.2": {
+      "title": "Eaglercraft 1.12.2",
+      "category": "Life & Sim",
+      "entry": "https://raw.githubusercontent.com/FrostsDev2/Website-Src-Files/main/EaglerCraft1.12.2/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/EaglerCraft1.12.2/icon.jpg"
+      ]
+    },
+    "monkeymart": {
+      "title": "Monkey Mart",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/monkeymart/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/monkeymart/icon.jpg"
+      ]
+    },
+    "motox3m": {
+      "title": "Moto X3M",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/motox3m/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/motox3m/icon.jpg"
+      ]
+    },
+    "moto3xm2": {
+      "title": "Moto X3M 2",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/moto3xm2/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/moto3xm2/icon.jpg"
+      ]
+    },
+    "moto3xm3": {
+      "title": "Moto X3M 3",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/moto3xm3/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/moto3xm3/icon.jpg"
+      ]
+    },
+    "mountainbikeracer": {
+      "title": "Mountain Bike Racer",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/mountainbikeracer/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/mountainbikeracer/icon.jpg"
+      ]
+    },
+    "nut-simulator": {
+      "title": "Nut Simulator",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/nut-simulator/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/nut-simulator/icon.png"
+      ]
+    },
+    "ovo": {
+      "title": "OvO",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ovo/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ovo/icon.jpg"
+      ]
+    },
+    "ovo2": {
+      "title": "OvO 2",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ovo2/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ovo2/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ovo2/icons/icon-512.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ovo2/icons/loading-logo.png"
+      ]
+    },
+    "pacman": {
+      "title": "Pac-Man",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/pacman/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/pacman/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/pacman/favicon.png"
+      ]
+    },
+    "paperio": {
+      "title": "Paper.io",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/paperio/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/paperio/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/paperio/images/icon192.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/paperio/images/icon512.png"
+      ]
+    },
+    "PingPongRandom": {
+      "title": "Ping Pong Random",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/PingPongRandom/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/PingPongRandom/icon.jpg"
+      ]
+    },
+    "polytrack": {
+      "title": "PolyTrack",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/polytrack/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/polytrack/icon.jpg"
+      ]
+    },
+    "raftwars": {
+      "title": "Raft Wars",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/raftwars/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/raftwars/icon.jpg"
+      ]
+    },
+    "retrobowl": {
+      "title": "Retro Bowl",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/retrobowl/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/retrobowl/icon.jpg"
+      ]
+    },
+    "rrbc": {
+      "title": "RRBC",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rrbc/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rrbc/icon.jpg"
+      ]
+    },
+    "riddleschool2": {
+      "title": "Riddle School 2",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/riddleschool2/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/riddleschool2/icon.jpg"
+      ]
+    },
+    "rooftopsnipers": {
+      "title": "Rooftop Snipers",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rooftopsnipers/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rooftopsnipers/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rooftopsnipers/TemplateData/progressLogo.Dark.png"
+      ]
+    },
+    "run3": {
+      "title": "Run 3",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/run3/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/run3/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/run3/favicon.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/run3/img/editor/DeleteLevelIcon.png"
+      ]
+    },
+    "Sandboxcity": {
+      "title": "Sandbox City",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Sandboxcity/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Sandboxcity/icon.jpg"
+      ]
+    },
+    "slitherio": {
+      "title": "Slither.io",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slitherio/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slitherio/icon.jpg"
+      ]
+    },
+    "slope": {
+      "title": "Slope",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slope/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slope/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slope/TemplateData/y8-logo.png"
+      ]
+    },
+    "slope2": {
+      "title": "Slope 2",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slope2/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slope2/icon.jpg"
+      ]
+    },
+    "smashkarts": {
+      "title": "Smash Karts",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/smashkarts/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/smashkarts/icon.jpg"
+      ]
+    },
+    "snowrider3d": {
+      "title": "Snow Rider 3D",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/snowrider3d/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/snowrider3d/icon.jpg"
+      ]
+    },
+    "snowbattle": {
+      "title": "Snow Battle",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/snowbattle/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/snowbattle/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/snowbattle/TemplateData/y8-logo.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/snowbattle/img/logo.png"
+      ]
+    },
+    "soccerbros": {
+      "title": "Soccer Bros",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/soccerbros/soccerbros.gg/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/soccerbros/soccerbros.gg/assets/favicon.png"
+      ]
+    },
+    "SoccerRandom": {
+      "title": "Soccer Random",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/SoccerRandom/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/SoccerRandom/icon.jpg"
+      ]
+    },
+    "spacewaves": {
+      "title": "Space Waves",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/spacewaves/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/spacewaves/icon.jpg"
+      ]
+    },
+    "SpeedStars": {
+      "title": "Speed Stars",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/SpeedStars/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/SpeedStars/icon.jpg"
+      ]
+    },
+    "stack": {
+      "title": "Stack",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stack/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stack/icon.jpg"
+      ]
+    },
+    "stackball": {
+      "title": "Stack Ball",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stackball/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stackball/icon.jpg"
+      ]
+    },
+    "stickmanbike": {
+      "title": "Stickman Bike",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickmanbike/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickmanbike/icon.jpg"
+      ]
+    },
+    "stickmanhook": {
+      "title": "Stickman Hook",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickmanhook/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickmanhook/icon.jpg"
+      ]
+    },
+    "stickmansurvival": {
+      "title": "Stickman Survival",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickmansurvival/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickmansurvival/Icon.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickmansurvival/TemplateData/unity-logo-dark.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickmansurvival/TemplateData/unity-logo-light.png"
+      ]
+    },
+    "subwaysurfers": {
+      "title": "Subway Surfers",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/subwaysurfers/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/subwaysurfers/icon.jpg"
+      ]
+    },
+    "subwaysurfersny": {
+      "title": "Subway Surfers: New York",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/subwaysurfersny/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/subwaysurfersny/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/subwaysurfersny/NewYorkIcon.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/subwaysurfersny/assets/placeholder/icon_00_brody.png"
+      ]
+    },
+    "subwaysurferssingapore": {
+      "title": "Subway Surfers: Singapore",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/subwaysurferssingapore/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/subwaysurferssingapore/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/subwaysurferssingapore/assets/images/app-icon-144.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/subwaysurferssingapore/assets/images/app-icon-16.png"
+      ]
+    },
+    "templerun": {
+      "title": "Temple Run",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/templerun/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/templerun/icon.jpg"
+      ]
+    },
+    "tetris": {
+      "title": "Tetris",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tetris/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tetris/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tetris/media/background/logo.png"
+      ]
+    },
+    "theimpossiablequiz": {
+      "title": "The Impossible Quiz",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/theimpossiablequiz/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/theimpossiablequiz/icon.jpg"
+      ]
+    },
+    "timeshooter": {
+      "title": "Time Shooter",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/timeshooter/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/timeshooter/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/timeshooter/logo.png"
+      ]
+    },
+    "timeshooter2": {
+      "title": "Time Shooter 2",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/timeshooter2/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/timeshooter2/icon.jpg"
+      ]
+    },
+    "timeshooter3": {
+      "title": "Time Shooter 3",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/timeshooter3/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/timeshooter3/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/timeshooter3/logo.png"
+      ]
+    },
+    "tinyfishing": {
+      "title": "Tiny Fishing",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tinyfishing/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tinyfishing/icon.jpg"
+      ]
+    },
+    "tunnelrush": {
+      "title": "Tunnel Rush",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tunnelrush/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tunnelrush/icon.jpg"
+      ]
+    },
+    "unicyclelegend": {
+      "title": "Unicycle Legend",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/unicyclelegend/file/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/unicyclelegend/file/icon.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/unicyclelegend/file/favicon.png"
+      ]
+    },
+    "vex3": {
+      "title": "Vex 3",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex3/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex3/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex3/assets/images/buttons/act-select-logo.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex3/assets/images/buttons/options-logo.png"
+      ]
+    },
+    "vex4": {
+      "title": "Vex 4",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex4/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex4/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex4/assets/images/cpromo-icon.png"
+      ]
+    },
+    "vex5": {
+      "title": "Vex 5",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex5/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex5/icon.jpg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex5/assets/images/brand-logo.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex5/assets/images/buttons/act-select-logo.png"
+      ]
+    },
+    "vex6": {
+      "title": "Vex 6",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex6/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex6/assets/icon.jpeg",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/vex6/assets/images/logo.png"
+      ]
+    },
+    "VollyRandom": {
+      "title": "Volleyball Random",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/VollyRandom/index.html"
+    },
+    "waterworks": {
+      "title": "Waterworks",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/waterworks/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/waterworks/waterworks/assets/logos.png"
+      ]
+    },
+    "wrestlebros": {
+      "title": "Wrestle Bros",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/wrestlebros/wrestlebros.io/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/wrestlebros/wrestlebros.io/assets/favicon.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/wrestlebros/wrestlebros.io/favicon.png"
+      ]
+    },
+    "adarkroom": {
+      "title": "A Dark Room",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/adarkroom/index.html",
+      "icons": [
+        "adarkroom/icon.jpg",
+        "adarkroom/favicon.ico"
+      ]
+    },
+    "EaglerCraft 1.8.8": {
+      "title": "Eaglercraft 1.8.8",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/EaglerCraft 1.8.8/Minecraft 1.8.8.html",
+      "icons": [
+        "EaglerCraft 1.8.8/icon.jpg"
+      ]
+    },
+    "googlesnake": {
+      "title": "Google Snake",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/googlesnake/index.html",
+      "icons": [
+        "googlesnake/icon.jpg"
+      ]
+    },
+    "konnekt": {
+      "title": "Konnekt",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/konnekt/index.html"
+    },
+    "learntofly": {
+      "title": "Learn to Fly",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/learntofly/2/index.html",
+      "icons": [
+        "learntofly/2/icon.jpg",
+        "learntofly/2/favicon.ico",
+        "learntofly/3/favicon.ico"
+      ]
+    },
+    "ritz": {
+      "title": "Ritz",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ritz/index.html",
+      "icons": [
+        "ritz/favicon.png"
+      ]
+    },
+    "roadblocks": {
+      "title": "Road Blocks",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/roadblocks/index.html"
+    },
+    "ruffle": {
+      "title": "Ruffle (Flash)",
+      "category": "Flash",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ruffle/index.html"
+    },
+    "snake": {
+      "title": "Snake",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/snake/index.html"
+    },
+    "stickdefenders": {
+      "title": "Stick Defenders",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickdefenders/index.html"
+    },
+    "stickmanclimb": {
+      "title": "Stickman Climb",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickmanclimb/index.html"
+    },
+    "stickmangolf": {
+      "title": "Stickman Golf",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickmangolf/index.html"
+    },
+    "topspeedracing3d": {
+      "title": "Top Speed Racing 3D",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/topspeedracing3d/index.html",
+      "icons": [
+        "topspeedracing3d/TemplateData/favicon.ico"
+      ]
+    },
+    "towermaster": {
+      "title": "Tower Master",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/towermaster/index.html"
+    },
+    "trimps": {
+      "title": "Trimps",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/trimps/index.html",
+      "icons": [
+        "trimps/favicon.ico"
+      ]
+    },
+    "webecomewhatwebehold": {
+      "title": "We Become What We Behold",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/webecomewhatwebehold/index.html"
+    },
+    "hardest-1": {
+      "title": "World's Hardest",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/worldshardestgame/index.html"
+    },
+    "hardest-2": {
+      "title": "World's Hardest 2",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/worldshardestgame2/index.html"
+    },
+    "xx142b2exe": {
+      "title": "XX142-B2.EXE",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/xx142b2exe/index.html"
+    },
+    "zombsroyale": {
+      "title": "Zombs Royale",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/zombsroyale/index.html"
+    },
+    "clpixel": {
+      "title": "CL Pixel",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/clpixel.html"
+    },
+    "clrocketleague": {
+      "title": "CL Rocket League",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/clrocketleague.html"
+    },
+    "test": {
+      "title": "Test",
+      "category": "Arcade",
+      "entry": "https://raw.githubusercontent.com/FrostsDev2/Website-Src-Files/main/test.html"
+    },
+    "1-date-danger": {
+      "title": "1 Date Danger",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/1-date-danger/index.html"
+    },
+    "10minutestilldawn": {
+      "title": "10 Minutes Till Dawn",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/10minutestilldawn/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/10minutestilldawn/icon.png"
+      ]
+    },
+    "2 minute football": {
+      "title": "2 Minute Football",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/2%20minute%20football/index.html"
+    },
+    "2-3-4-player-game": {
+      "title": "2 3 4 Player Games",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/2-3-4-player-game/index.html"
+    },
+    "2doom": {
+      "title": "2DOOM",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/2doom/index.html"
+    },
+    "3dash": {
+      "title": "3Dash",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/3dash/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/3dash/logo.png"
+      ]
+    },
+    "5b": {
+      "title": "5B",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/5b/index.html"
+    },
+    "664x-main": {
+      "title": "Ninja Obby Parkour",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/664x-main/index.html"
+    },
+    "Antimatter Dimensions": {
+      "title": "Antimatter Dimensions",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Antimatter%20Dimensions/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Antimatter%20Dimensions/icon.png"
+      ]
+    },
+    "BUMPER CARS SOCCER": {
+      "title": "Bumper Cars Soccer",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/BUMPER%20CARS%20SOCCER/index.html"
+    },
+    "Blightborne": {
+      "title": "Blightborne",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Blightborne/index.html"
+    },
+    "BurritoBison-main": {
+      "title": "Burrito Bison",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/BurritoBison-main/index.html"
+    },
+    "Endacopia": {
+      "title": "Endacopia",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Endacopia/index.html"
+    },
+    "Five Nights at Osaka's": {
+      "title": "Five Nights at Osaka's",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Five%20Nights%20at%20Osaka%27s/index.html"
+    },
+    "Insomniary": {
+      "title": "Insomniary",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Insomniary/index.html"
+    },
+    "STICKMAN GTA": {
+      "title": "Stickman GTA City",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/STICKMAN%20GTA/index.html"
+    },
+    "Stickman Clash": {
+      "title": "Stickman Kingdom Clash",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Stickman%20Clash/index.html"
+    },
+    "a day in the office": {
+      "title": "A Day in the Office",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/a%20day%20in%20the%20office/index.html"
+    },
+    "adventure-capitalist": {
+      "title": "AdVenture Capitalist",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/adventure-capitalist/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/adventure-capitalist/logo.webp"
+      ]
+    },
+    "ages of conflict": {
+      "title": "Ages of Conflict",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ages%20of%20conflict/index.html"
+    },
+    "airline-tycoon-idle": {
+      "title": "Airline Tycoon Idle",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/airline-tycoon-idle/index.html"
+    },
+    "alien sky invasion": {
+      "title": "Alien Sky Invasion",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/alien%20sky%20invasion/index.html"
+    },
+    "amazing-strange-rope-police-vice-spider": {
+      "title": "Amazing Strange Rope Police",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/amazing-strange-rope-police-vice-spider/index.html"
+    },
+    "amidst the sky": {
+      "title": "Amidst the Sky",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/amidst%20the%20sky/index.html"
+    },
+    "angry-bird": {
+      "title": "Angry Birds Epic",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/angry-bird/index.html"
+    },
+    "apesvshelium": {
+      "title": "Apes vs Helium",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/apesvshelium/index.html"
+    },
+    "arcade-volley": {
+      "title": "Arcade Volleyball",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/arcade-volley/index.html"
+    },
+    "archesspalago": {
+      "title": "Archesspelago",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/archesspalago/index.html"
+    },
+    "astro survivors": {
+      "title": "Astro Survivors",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/astro%20survivors/index.html"
+    },
+    "aviamaster": {
+      "title": "Aviamasters",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/aviamaster/FUN.html"
+    },
+    "babel tower": {
+      "title": "Babel Tower",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/babel%20tower/index.html"
+    },
+    "backrooms 2D": {
+      "title": "Backrooms 2D",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/backrooms%202D/index.html"
+    },
+    "bacon may die": {
+      "title": "Bacon May Die",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bacon%20may%20die/index.html"
+    },
+    "bad-parenting": {
+      "title": "Bad Parenting",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bad-parenting/index.html"
+    },
+    "baldi decomp": {
+      "title": "Baldi's Basics: Ultra Decompile",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/baldi%20decomp/index.html"
+    },
+    "ballistic": {
+      "title": "Ballistic",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ballistic/index.html"
+    },
+    "banana poker": {
+      "title": "Banana Poker",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/banana%20poker/game.html"
+    },
+    "barry has a secret": {
+      "title": "Barry Has a Secret",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/barry%20has%20a%20secret/index.html"
+    },
+    "basketball-superstars": {
+      "title": "Basketball Superstars",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/basketball-superstars/index.html"
+    },
+    "beach-boxing-sim": {
+      "title": "Beach Boxing Simulator",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/beach-boxing-sim/index.html"
+    },
+    "bearsus": {
+      "title": "Bearsus",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bearsus/index.html"
+    },
+    "ben 10 super slammer": {
+      "title": "Ben 10 Super Slammer",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ben%2010%20super%20slammer/index.html"
+    },
+    "bfnsu": {
+      "title": "Baldi's Fun New School Ultimate",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bfnsu/index.html"
+    },
+    "big 2048": {
+      "title": "Big 2048",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/big%202048/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/big%202048/favicon.ico"
+      ]
+    },
+    "block-miner": {
+      "title": "Block Miner",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/block-miner/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/block-miner/logo.png"
+      ]
+    },
+    "blockpost": {
+      "title": "Blockpost",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/blockpost/clblockpost.html"
+    },
+    "blumgi racers": {
+      "title": "Blumgi Racers",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/blumgi%20racers/index.html"
+    },
+    "blumgi-rocket": {
+      "title": "Blumgi Rocket",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/blumgi-rocket/index.html"
+    },
+    "bouncy basketball": {
+      "title": "Bouncy Basketball",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bouncy%20basketball/index.html"
+    },
+    "bouncy motors": {
+      "title": "Bouncy Motors",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bouncy%20motors/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bouncy%20motors/icon.png"
+      ]
+    },
+    "bounty of one": {
+      "title": "Bounty of One",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bounty%20of%20one/index.html"
+    },
+    "brawl-3d": {
+      "title": "Brawl 3D",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/brawl-3d/index.html"
+    },
+    "bullet-force-multiplayer": {
+      "title": "Bullet Force Multiplayer",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/bullet-force-multiplayer/index.html"
+    },
+    "canvas": {
+      "title": "Canvas",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/canvas/index.html"
+    },
+    "capybara clicker": {
+      "title": "Capybara Clicker",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/capybara%20clicker/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/capybara%20clicker/logo-capybara-licker.png"
+      ]
+    },
+    "cat mario": {
+      "title": "Cat Mario",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cat%20mario/index.html"
+    },
+    "cats love cake 2": {
+      "title": "Cats Love Cake 2",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cats%20love%20cake%202/index.html"
+    },
+    "cave chaos 2": {
+      "title": "Cave Chaos 2",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cave%20chaos%202/index.html"
+    },
+    "cheese chompers 3": {
+      "title": "Cheese Chompers 3",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/cheese%20chompers%203/index.html"
+    },
+    "chicken-gun": {
+      "title": "Machine Gun Chicken",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/chicken-gun/index.html"
+    },
+    "choppy orc": {
+      "title": "Choppy Orc",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/choppy%20orc/coffee.html"
+    },
+    "circlo02": {
+      "title": "circloO 2",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/circlo02/index.html"
+    },
+    "clashofvikings": {
+      "title": "Clash of Vikings",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/clashofvikings/index.html"
+    },
+    "crazy cars": {
+      "title": "Crazy Cars",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/crazy%20cars/index.html"
+    },
+    "crazy chicken 3D": {
+      "title": "Crazy Chicken 3D",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/crazy%20chicken%203D/index.html"
+    },
+    "creature-card-idle": {
+      "title": "Creature Card Idle",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/creature-card-idle/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/creature-card-idle/favicon.ico"
+      ]
+    },
+    "csgo surf": {
+      "title": "CS:GO Surf",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/csgo%20surf/index.html"
+    },
+    "dandys-world-clicker": {
+      "title": "Dandy's World Clicker",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/dandys-world-clicker/index.html"
+    },
+    "dblox": {
+      "title": "DBlox",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/dblox/index.html"
+    },
+    "deepest sword": {
+      "title": "Deepest Sword",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/deepest%20sword/index.html"
+    },
+    "demon-bluff": {
+      "title": "Demon Bluff",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/demon-bluff/index.html"
+    },
+    "die in the dungeon": {
+      "title": "Die in the Dungeon",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/die%20in%20the%20dungeon/index.html"
+    },
+    "dimension-incident": {
+      "title": "Dimension Incident",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/dimension-incident/index.html"
+    },
+    "doge miner 2": {
+      "title": "Doge Miner 2",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/doge%20miner%202/index.html"
+    },
+    "down the mountain": {
+      "title": "Down the Mountain",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/down%20the%20mountain/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/down%20the%20mountain/logo.png"
+      ]
+    },
+    "dragon": {
+      "title": "Tail of the Dragon",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/dragon/index.html"
+    },
+    "drunken duel": {
+      "title": "Drunken Duel",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/drunken%20duel/index.html"
+    },
+    "duck life 6": {
+      "title": "Duck Life 6: Space",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/duck%20life%206/game.html"
+    },
+    "duck life battle": {
+      "title": "Duck Life Battle",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/duck%20life%20battle/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/duck%20life%20battle/logo.png"
+      ]
+    },
+    "dungeon-degen": {
+      "title": "Dungeons & Degenerate Gamblers",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/dungeon-degen/index.html"
+    },
+    "dungeondeck": {
+      "title": "Dungeon Deck",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/dungeondeck/index.html"
+    },
+    "eagle ride": {
+      "title": "Eagle Ride",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/eagle%20ride/index.html"
+    },
+    "edys car simulator": {
+      "title": "Edy's Car Simulator",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/edys%20car%20simulator/index.html"
+    },
+    "escalating-duel": {
+      "title": "Escalating Duel",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/escalating-duel/index.html"
+    },
+    "eugene-life": {
+      "title": "Eugene's Life",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/eugene-life/index.html"
+    },
+    "eurovision-sim": {
+      "title": "Euroaural Song Contest",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/eurovision-sim/index.html"
+    },
+    "evade": {
+      "title": "Evade",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/evade/index.html"
+    },
+    "evil nun schools out": {
+      "title": "Evil Nun: School's Out",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/evil%20nun%20schools%20out/index.html"
+    },
+    "examination or smth": {
+      "title": "Examination or Smth",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/examination%20or%20smth/index.html"
+    },
+    "exo-observation": {
+      "title": "Exo Observation",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/exo-observation/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/exo-observation/favicon.ico",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/exo-observation/logo_192x192.png"
+      ]
+    },
+    "falling-fred": {
+      "title": "Super Falling Fred",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/falling-fred/index.html"
+    },
+    "fear-assessment": {
+      "title": "Fear Assessment",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fear-assessment/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fear-assessment/icon-114.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fear-assessment/icon-128.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fear-assessment/icon-16.png"
+      ]
+    },
+    "feed-the-void": {
+      "title": "Feed the Void",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/feed-the-void/index.html"
+    },
+    "final earth 2": {
+      "title": "The Final Earth 2",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/final%20earth%202/index.html"
+    },
+    "fish-eat-big": {
+      "title": "Fish Eat Big",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fish-eat-big/index.html"
+    },
+    "fisquarium": {
+      "title": "Fisquarium",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fisquarium/index.html"
+    },
+    "flappy-tower": {
+      "title": "Big Flappy Tower",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/flappy-tower/index.html"
+    },
+    "flip master": {
+      "title": "Flip Master",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/flip%20master/index.html"
+    },
+    "flipp knife": {
+      "title": "Flippy Knife",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/flipp%20knife/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/flipp%20knife/icon-256.png"
+      ]
+    },
+    "fnabr": {
+      "title": "Five Nights at Baldi's Redone",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnabr/index.html"
+    },
+    "fnas-hotel2": {
+      "title": "Five Nights at Shrek's Hotel",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnas-hotel2/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnas-hotel2/logo.png"
+      ]
+    },
+    "fnaw": {
+      "title": "Five Nights at Winston's",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnaw/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fnaw/favicon.ico"
+      ]
+    },
+    "forward-assault": {
+      "title": "Forward Assault",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/forward-assault/index.html"
+    },
+    "fruit ninja": {
+      "title": "Fruit Ninja",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/fruit%20ninja/index.html"
+    },
+    "game-inside-game": {
+      "title": "Game Inside a Game",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/game-inside-game/index.html"
+    },
+    "gardenless": {
+      "title": "PvZ2 Gardendless",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/gardenless/index.html"
+    },
+    "gdash": {
+      "title": "Geometry Dash",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/gdash/index.html"
+    },
+    "gdlite": {
+      "title": "Geometry Dash Lite",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/gdlite/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/gdlite/logo.png"
+      ]
+    },
+    "georgeandprinter": {
+      "title": "George and the Printer",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/georgeandprinter/index.html"
+    },
+    "get yoked": {
+      "title": "Get Yoked",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/get%20yoked/index.html"
+    },
+    "gimmie the airpod": {
+      "title": "Gimmie the Airpod",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/gimmie%20the%20airpod/index.html"
+    },
+    "gladihoppper": {
+      "title": "Gladihoppers",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/gladihoppper/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/gladihoppper/favicon.ico"
+      ]
+    },
+    "goblin-goop": {
+      "title": "Goblin Goop",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/goblin-goop/index.html"
+    },
+    "going balls": {
+      "title": "Going Balls",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/going%20balls/play.html"
+    },
+    "golf orbit": {
+      "title": "Golf Orbit",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/golf%20orbit/index.html"
+    },
+    "google-gnome": {
+      "title": "Google Gnome",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/google-gnome/gnomes18.html"
+    },
+    "grand-escape-prison": {
+      "title": "Grand Escape Prison",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/grand-escape-prison/index.html"
+    },
+    "granny 3": {
+      "title": "Granny 3",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/granny%203/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/granny%203/logo.png"
+      ]
+    },
+    "gravity": {
+      "title": "Firecaster: Gravity",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/gravity/fcgravity.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/gravity/favicon.ico"
+      ]
+    },
+    "grindcraft": {
+      "title": "GrindCraft",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/grindcraft/play.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/grindcraft/favicon.png"
+      ]
+    },
+    "grn": {
+      "title": "GRN Prototype",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/grn/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/grn/favicon.png"
+      ]
+    },
+    "grow-your-garden": {
+      "title": "Grow Your Garden",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/grow-your-garden/index.html"
+    },
+    "gun-knight": {
+      "title": "Gun Knight",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/gun-knight/index.html"
+    },
+    "half life": {
+      "title": "Half-Life",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/half%20life/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/half%20life/favicon.ico"
+      ]
+    },
+    "happy room": {
+      "title": "Happy Room",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/happy%20room/index.html"
+    },
+    "hardware tycoon": {
+      "title": "Hardware Tycoon",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/hardware%20tycoon/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/hardware%20tycoon/icon-114.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/hardware%20tycoon/icon-128.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/hardware%20tycoon/icon-16.png"
+      ]
+    },
+    "haunted-school": {
+      "title": "Haunted School",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/haunted-school/index.html"
+    },
+    "head soccer": {
+      "title": "Head Soccer",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/head%20soccer/index.html"
+    },
+    "highway racer 2": {
+      "title": "Highway Racer 2",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/highway%20racer%202/index.html"
+    },
+    "highway traffic": {
+      "title": "Highway Traffic 3D",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/highway%20traffic/index.html"
+    },
+    "hills of steel": {
+      "title": "Hills of Steel",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/hills%20of%20steel/index.html"
+    },
+    "house paint": {
+      "title": "House Paint",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/house%20paint/index.html"
+    },
+    "hungry knight": {
+      "title": "Hungry Knight",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/hungry%20knight/index.html"
+    },
+    "hungry lamu": {
+      "title": "Hungry Lamu",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/hungry%20lamu/index.html"
+    },
+    "ice dodo": {
+      "title": "Ice Dodo",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ice%20dodo/index.html"
+    },
+    "ice-fishing": {
+      "title": "Ice Fishing 3D",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ice-fishing/index.html"
+    },
+    "icy purple head": {
+      "title": "Icy Purple Head",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/icy%20purple%20head/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/icy%20purple%20head/icon-256.png"
+      ]
+    },
+    "idle bee factory": {
+      "title": "Idle Bee Factory",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/idle%20bee%20factory/index.html"
+    },
+    "idle idle game dev": {
+      "title": "Idle Idle Game Dev",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/idle%20idle%20game%20dev/index.html"
+    },
+    "idle-football-manager": {
+      "title": "Idle Football Manager",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/idle-football-manager/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/idle-football-manager/icon.ico"
+      ]
+    },
+    "industrial-basis": {
+      "title": "Industrial Basis",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/industrial-basis/index.html"
+    },
+    "infinite-trees": {
+      "title": "Infinite Trees",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/infinite-trees/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/infinite-trees/icon-114.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/infinite-trees/icon-128.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/infinite-trees/icon-16.png"
+      ]
+    },
+    "ink-game": {
+      "title": "99 Days",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ink-game/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ink-game/logo.png"
+      ]
+    },
+    "iron snout": {
+      "title": "Iron Snout",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/iron%20snout/index.html"
+    },
+    "jelly-mario": {
+      "title": "Jelly Mario",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/jelly-mario/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/jelly-mario/favicon.ico"
+      ]
+    },
+    "jet rush": {
+      "title": "Jet Rush",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/jet%20rush/index.html"
+    },
+    "jumbo-mario": {
+      "title": "Jumbo Mario",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/jumbo-mario/index.html"
+    },
+    "jumping shell": {
+      "title": "Jumping Shell",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/jumping%20shell/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/jumping%20shell/favicon.png"
+      ]
+    },
+    "jungle-deer-hunting": {
+      "title": "Jungle Deer Hunting",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/jungle-deer-hunting/index.html"
+    },
+    "kanye-zone": {
+      "title": "Kanye Zone",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kanye-zone/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kanye-zone/favicon.ico"
+      ]
+    },
+    "karate bros": {
+      "title": "Karate Bros",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/karate%20bros/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/karate%20bros/favicon.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/karate%20bros/icon.png"
+      ]
+    },
+    "konkr": {
+      "title": "Konkr.io",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/konkr/index.html"
+    },
+    "kraft quest": {
+      "title": "Kraft & Slash",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/kraft%20quest/index.html"
+    },
+    "laingame": {
+      "title": "Laingame",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/laingame/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/laingame/favicon.ico"
+      ]
+    },
+    "last-breath-epstein": {
+      "title": "Five Nights at Last Breath",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/last-breath-epstein/index.html"
+    },
+    "last-horizon": {
+      "title": "Last Horizon",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/last-horizon/index.html"
+    },
+    "leader strike": {
+      "title": "Leader Strike",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/leader%20strike/index.html"
+    },
+    "lil runmo": {
+      "title": "Little Runmo",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/lil%20runmo/index.html"
+    },
+    "lock the door": {
+      "title": "Lock the Door",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/lock%20the%20door/index.html"
+    },
+    "lolshooter2-main": {
+      "title": "Funny Shooter 2",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/lolshooter2-main/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/lolshooter2-main/favicon.ico",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/lolshooter2-main/logo.png"
+      ]
+    },
+    "lucky ducky obby wobby": {
+      "title": "Lucky Ducky Obby Wobby",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/lucky%20ducky%20obby%20wobby/index.html"
+    },
+    "lunar-lander": {
+      "title": "Lunar Lander",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/lunar-lander/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/lunar-lander/favicon.ico"
+      ]
+    },
+    "mad-stick": {
+      "title": "Mad Stick",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/mad-stick/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/mad-stick/logo.png"
+      ]
+    },
+    "madalin-stunt-cars-2-main": {
+      "title": "Madalin Stunt Cars 2",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/madalin-stunt-cars-2-main/index.html"
+    },
+    "madalincarmulti": {
+      "title": "Madalin Cars Multiplayer",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/madalincarmulti/index.html"
+    },
+    "mana god": {
+      "title": "Mana God",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/mana%20god/index.html"
+    },
+    "mari0": {
+      "title": "Mari0",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/mari0/index.html"
+    },
+    "masekd for": {
+      "title": "Masked Forces Unlimited",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/masekd%20for/index.html"
+    },
+    "megachess": {
+      "title": "Megachess",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/megachess/index.html"
+    },
+    "merge round racers": {
+      "title": "Merge Round Racers",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/merge%20round%20racers/index.html"
+    },
+    "mindustry": {
+      "title": "Mindustry",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/mindustry/index.html"
+    },
+    "mineshootmm": {
+      "title": "Mine Shoot",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/mineshootmm/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/mineshootmm/logo.png"
+      ]
+    },
+    "mini-flips": {
+      "title": "Mini Flips",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/mini-flips/index.html"
+    },
+    "momos-crusher": {
+      "title": "Super Momos Crusher",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/momos-crusher/index.html"
+    },
+    "moto road rash": {
+      "title": "Moto Road Rash 3D",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/moto%20road%20rash/index.html"
+    },
+    "motocross mad skills": {
+      "title": "Motocross Mad Skills",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/motocross%20mad%20skills/index.html"
+    },
+    "mr-mine": {
+      "title": "Mr. Mine",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/mr-mine/index.html"
+    },
+    "not your pawn": {
+      "title": "Not Your Pawn",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/not%20your%20pawn/index.html"
+    },
+    "nuts and bolts": {
+      "title": "Nuts and Bolts",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/nuts%20and%20bolts/index.html"
+    },
+    "nzp": {
+      "title": "NZ Portable",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/nzp/index.html"
+    },
+    "obby robby only up": {
+      "title": "Obby Robby: Only Up",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/obby%20robby%20only%20up/index.html"
+    },
+    "obby robob": {
+      "title": "Obby Robob",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/obby%20robob/index.html"
+    },
+    "obby-1-jump-per-click": {
+      "title": "Obby: 1 Jump Per Click",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/obby-1-jump-per-click/index.html"
+    },
+    "obby-bike": {
+      "title": "Obby on a Bike",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/obby-bike/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/obby-bike/logo.png"
+      ]
+    },
+    "odd bot out": {
+      "title": "Odd Bot Out",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/odd%20bot%20out/index.html"
+    },
+    "off": {
+      "title": "OFF",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/off/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/off/favicon.ico"
+      ]
+    },
+    "omega-layers": {
+      "title": "Omega Layers",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/omega-layers/index.html"
+    },
+    "onebit": {
+      "title": "OneBit Adventure",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/onebit/onebit/index.html"
+    },
+    "opposite day": {
+      "title": "Opposite Day",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/opposite%20day/index.html"
+    },
+    "orb farm": {
+      "title": "Orb.Farm",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/orb%20farm/index.html"
+    },
+    "orb of creation": {
+      "title": "Orb of Creation",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/orb%20of%20creation/index.html"
+    },
+    "outhold": {
+      "title": "Outhold",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/outhold/index.html"
+    },
+    "ovomod": {
+      "title": "OvO Mod",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ovomod/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ovomod/icon-114.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ovomod/icon-128.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ovomod/icon-16.png"
+      ]
+    },
+    "par72golf": {
+      "title": "Par 72 Golf",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/par72golf/index.html"
+    },
+    "penguin diner": {
+      "title": "Penguin Diner",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/penguin%20diner/index.html"
+    },
+    "perfect-hotel": {
+      "title": "Perfect Hotel",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/perfect-hotel/index.html"
+    },
+    "pixel combat 2": {
+      "title": "Pixel Combat 2",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/pixel%20combat%202/index.html"
+    },
+    "planet life": {
+      "title": "Planet Life",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/planet%20life/index.html"
+    },
+    "please-dont-touch": {
+      "title": "Please Don't Touch",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/please-dont-touch/index.html"
+    },
+    "plinko": {
+      "title": "Plinko",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/plinko/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/plinko/favicon-32x32.png"
+      ]
+    },
+    "pom-gets-wifi": {
+      "title": "Pom Gets Wi-Fi",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/pom-gets-wifi/index.html"
+    },
+    "poor eddie": {
+      "title": "Poor Eddie",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/poor%20eddie/index.html"
+    },
+    "poor-bunny": {
+      "title": "Poor Bunny",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/poor-bunny/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/poor-bunny/favicon.png"
+      ]
+    },
+    "portal": {
+      "title": "Portal",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/portal/index.html"
+    },
+    "puppet hockey": {
+      "title": "Puppet Hockey",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/puppet%20hockey/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/puppet%20hockey/icon-256.png"
+      ]
+    },
+    "puppet-master": {
+      "title": "Puppet Master",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/puppet-master/index.html"
+    },
+    "quake": {
+      "title": "Quake",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/quake/quake/index.html"
+    },
+    "ragdoll-drop": {
+      "title": "Ragdoll Drop",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ragdoll-drop/index.html"
+    },
+    "ragdoll-hit": {
+      "title": "Ragdoll Hit",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ragdoll-hit/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ragdoll-hit/thumbnail.png"
+      ]
+    },
+    "ragdoll-runners": {
+      "title": "Ragdoll Runners",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ragdoll-runners/index.html"
+    },
+    "reaticore": {
+      "title": "Reacticore",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/reaticore/index.html"
+    },
+    "recoil": {
+      "title": "Recoil",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/recoil/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/recoil/favicon.ico"
+      ]
+    },
+    "redvsblue": {
+      "title": "Red vs Blue",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/redvsblue/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/redvsblue/logo.png"
+      ]
+    },
+    "repo-bad": {
+      "title": "Repo Bad",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/repo-bad/index.html"
+    },
+    "resizer": {
+      "title": "Resizer",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/resizer/game.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/resizer/favicon.png"
+      ]
+    },
+    "retrobowlcollege": {
+      "title": "Retro Bowl College",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/retrobowlcollege/new.html"
+    },
+    "revenge of dog": {
+      "title": "Revenge of Dog",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/revenge%20of%20dog/index.html"
+    },
+    "revolution idle": {
+      "title": "Revolution Idle",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/revolution%20idle/index.html"
+    },
+    "rio-rex": {
+      "title": "Rio Rex",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rio-rex/index.html"
+    },
+    "rocket soccer derby": {
+      "title": "Rocket Soccer Derby",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rocket%20soccer%20derby/index.html"
+    },
+    "rocket-goal": {
+      "title": "Rocket Goal",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rocket-goal/index.html"
+    },
+    "rocketpult": {
+      "title": "Rocketpult",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rocketpult/index.html"
+    },
+    "rod-ha": {
+      "title": "Rod Ha",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rod-ha/index.html"
+    },
+    "rogue-sergeant": {
+      "title": "Rogue Sergeant",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rogue-sergeant/index.html"
+    },
+    "roller baller": {
+      "title": "Roller Baller",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/roller%20baller/index.html"
+    },
+    "rolling-sky": {
+      "title": "Rolling Sky",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rolling-sky/index.html"
+    },
+    "rolly vortex": {
+      "title": "Rolly Vortex",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rolly%20vortex/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rolly%20vortex/icon-256.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rolly%20vortex/icon-32.png"
+      ]
+    },
+    "rooftop snipers 2": {
+      "title": "Rooftop Snipers 2",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rooftop%20snipers%202/index.html"
+    },
+    "rouge fable 3": {
+      "title": "Rogue Fable III",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/rouge%20fable%203/index.html"
+    },
+    "roulette knight": {
+      "title": "Roulette Knight",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/roulette%20knight/index.html"
+    },
+    "running-fred": {
+      "title": "Running Fred",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/running-fred/index.html"
+    },
+    "russian-buckshot": {
+      "title": "Russian Buckshot",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/russian-buckshot/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/russian-buckshot/logo.png"
+      ]
+    },
+    "russian-cardriver": {
+      "title": "Russian Car Driver",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/russian-cardriver/index.html"
+    },
+    "scale-the-depths": {
+      "title": "Scale the Depths",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/scale-the-depths/index.html"
+    },
+    "scary-teacher-3D": {
+      "title": "Scary Teacher 3D",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/scary-teacher-3D/index.html"
+    },
+    "scrap-metal": {
+      "title": "Scrap Metal",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/scrap-metal/index.html"
+    },
+    "scratch-inc": {
+      "title": "Scratch Inc.",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/scratch-inc/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/scratch-inc/favicon.ico"
+      ]
+    },
+    "sea mongrel": {
+      "title": "Sea Mongrel",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/sea%20mongrel/index.html"
+    },
+    "self": {
+      "title": "Self",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/self/index.html"
+    },
+    "serenitrove": {
+      "title": "Serenitrove",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/serenitrove/index.html"
+    },
+    "shredsauce": {
+      "title": "Shredsauce",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/shredsauce/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/shredsauce/favicon.ico"
+      ]
+    },
+    "silk": {
+      "title": "Silk",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/silk/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/silk/favicon.ico"
+      ]
+    },
+    "silohuette showdown": {
+      "title": "Silhouette Showdown",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/silohuette%20showdown/index.html"
+    },
+    "six-ways-to-suffer-lolol": {
+      "title": "Six Ways to Suffer",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/six-ways-to-suffer-lolol/index.html"
+    },
+    "skinwalker": {
+      "title": "Skinwalker",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/skinwalker/index.html"
+    },
+    "sky race": {
+      "title": "Sky Race",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/sky%20race/index.html"
+    },
+    "slender multiplayer": {
+      "title": "Slender Multiplayer",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slender%20multiplayer/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slender%20multiplayer/icon-114.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slender%20multiplayer/icon-128.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slender%20multiplayer/icon-16.png"
+      ]
+    },
+    "slice-master": {
+      "title": "Slice Master",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slice-master/index.html"
+    },
+    "slide-in-the-woods-": {
+      "title": "Slide in the Woods",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slide-in-the-woods-/index.html"
+    },
+    "slope 2 player": {
+      "title": "Slope 2 Player",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slope%202%20player/index.html"
+    },
+    "slope 3": {
+      "title": "Slope 3",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slope%203/index.html"
+    },
+    "slot or not": {
+      "title": "Slot or Not",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/slot%20or%20not/index.html"
+    },
+    "sm63redux": {
+      "title": "Super Mario 63 Redux",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/sm63redux/index.html"
+    },
+    "soccer skills euro": {
+      "title": "Soccer Skills: Euro Cup",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/soccer%20skills%20euro/index.html"
+    },
+    "solar-sandbox": {
+      "title": "Solar Sandbox",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/solar-sandbox/index.html"
+    },
+    "sort-court": {
+      "title": "Sort the Court!",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/sort-court/index.html"
+    },
+    "space company": {
+      "title": "Space Company",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/space%20company/index.html"
+    },
+    "space wars battleground": {
+      "title": "Space Wars Battleground",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/space%20wars%20battleground/index.html"
+    },
+    "space-funeral": {
+      "title": "Space Funeral",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/space-funeral/index.html"
+    },
+    "speed-dash": {
+      "title": "Speed Dash",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/speed-dash/index.html"
+    },
+    "spelunky": {
+      "title": "Spelunky Classic HD",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/spelunky/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/spelunky/favicon.ico"
+      ]
+    },
+    "sprunked": {
+      "title": "Sprunked",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/sprunked/index.html"
+    },
+    "ssf2": {
+      "title": "Super Smash Flash 2",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ssf2/index.html"
+    },
+    "stackball.io": {
+      "title": "Stack Fire Ball",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stackball.io/index.html"
+    },
+    "stacktris": {
+      "title": "Stacktris",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stacktris/index.html"
+    },
+    "station 141": {
+      "title": "Station 141",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/station%20141/index.html"
+    },
+    "station saturn": {
+      "title": "Station Saturn",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/station%20saturn/index.html"
+    },
+    "station-meltdown": {
+      "title": "Station Meltdown",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/station-meltdown/index.html"
+    },
+    "steal brainrot": {
+      "title": "Steal Brainrot",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/steal%20brainrot/indexx.html"
+    },
+    "stick merge": {
+      "title": "Stick Merge",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stick%20merge/index.html"
+    },
+    "stick slasher": {
+      "title": "Stick Slasher",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stick%20slasher/index.html"
+    },
+    "stickman parkour island": {
+      "title": "Stickman Parkour",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickman%20parkour%20island/index.html"
+    },
+    "stickman-destruction": {
+      "title": "Stickman Destruction",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickman-destruction/index.html"
+    },
+    "stickman-fighto": {
+      "title": "Stickman Fight",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickman-fighto/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stickman-fighto/favicon.ico"
+      ]
+    },
+    "stone-grass-mowing-simulator": {
+      "title": "Stone Grass Mowing Simulator",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stone-grass-mowing-simulator/index.html"
+    },
+    "strands": {
+      "title": "Strands",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/strands/strands-game.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/strands/favicon.ico"
+      ]
+    },
+    "striker-dummies": {
+      "title": "Striker Dummies",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/striker-dummies/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/striker-dummies/favicon.ico"
+      ]
+    },
+    "stumbleguys": {
+      "title": "Stumble Guys",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/stumbleguys/index.html"
+    },
+    "super auto pets": {
+      "title": "Super Auto Pets",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super%20auto%20pets/index.html"
+    },
+    "super dark deception": {
+      "title": "Super Dark Deception",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super%20dark%20deception/index.html"
+    },
+    "super kid adventure": {
+      "title": "Super Kid Adventure",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super%20kid%20adventure/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super%20kid%20adventure/icon-114.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super%20kid%20adventure/icon-128.png",
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super%20kid%20adventure/icon-16.png"
+      ]
+    },
+    "super liquid soccer": {
+      "title": "Super Liquid Soccer",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super%20liquid%20soccer/index.html"
+    },
+    "super speed racing": {
+      "title": "Super Speed Racing",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super%20speed%20racing/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super%20speed%20racing/logo.png"
+      ]
+    },
+    "super star car": {
+      "title": "Super Star Car",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super%20star%20car/index.html"
+    },
+    "super-onion-boy-2": {
+      "title": "Super Onion Boy 2",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super-onion-boy-2/index-x.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super-onion-boy-2/favicon.ico"
+      ]
+    },
+    "super-santa-kicker": {
+      "title": "Super Santa Kicker",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/super-santa-kicker/index.html"
+    },
+    "superhot": {
+      "title": "SUPERHOT",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/superhot/index.html"
+    },
+    "survival race v2": {
+      "title": "Survival Race",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/survival%20race%20v2/index.html"
+    },
+    "sushi unroll": {
+      "title": "Sushi Unroll",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/sushi%20unroll/index.html"
+    },
+    "swamp-attack": {
+      "title": "Swamp Attack",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/swamp-attack/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/swamp-attack/icon-256.png"
+      ]
+    },
+    "switchblade": {
+      "title": "Switchblade",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/switchblade/index.html"
+    },
+    "swordfight": {
+      "title": "Swordfight",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/swordfight/index.html"
+    },
+    "table tanks": {
+      "title": "Table Tanks",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/table%20tanks/index.html"
+    },
+    "table tennis cn": {
+      "title": "Table Tennis Ultimate Tournament",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/table%20tennis%20cn/index.html"
+    },
+    "table tennis world tour": {
+      "title": "Table Tennis World Tour",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/table%20tennis%20world%20tour/game.html"
+    },
+    "tag-cm": {
+      "title": "Tag",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tag-cm/play.html"
+    },
+    "telephone trouble": {
+      "title": "Telephone Trouble",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/telephone%20trouble/index.html"
+    },
+    "tempoverdose": {
+      "title": "Tempoverdose",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tempoverdose/index.html"
+    },
+    "texas-hold-em": {
+      "title": "Texas Hold'em",
+      "category": "Board & Cards",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/texas-hold-em/e.html"
+    },
+    "the box of secrets": {
+      "title": "The Box of Secrets",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/the%20box%20of%20secrets/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/the%20box%20of%20secrets/logo.png"
+      ]
+    },
+    "they-are-coming": {
+      "title": "They Are Coming",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/they-are-coming/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/they-are-coming/logo.png"
+      ]
+    },
+    "thorns and balloons": {
+      "title": "Thorns and Balloons",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/thorns%20and%20balloons/index.html"
+    },
+    "throw-a-potato-space": {
+      "title": "Throw a Potato in Space",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/throw-a-potato-space/index.html"
+    },
+    "time warriors": {
+      "title": "Time Warriors",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/time%20warriors/index.html"
+    },
+    "toasterball": {
+      "title": "Toasterball",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/toasterball/index.html"
+    },
+    "todee and todpee": {
+      "title": "Toodee and Topdee",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/todee%20and%20todpee/play.html"
+    },
+    "tomb": {
+      "title": "Tomb",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tomb/index.html"
+    },
+    "tommorowandyesterday": {
+      "title": "Tomorrow and Yesterday",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tommorowandyesterday/index.html"
+    },
+    "totm": {
+      "title": "TotM",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/totm/index.html"
+    },
+    "tower-idle": {
+      "title": "Mage Tower Idle Defense",
+      "category": "Idle & Clickers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tower-idle/index.html"
+    },
+    "townscraper": {
+      "title": "Townscraper",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/townscraper/index.html"
+    },
+    "toy-rider": {
+      "title": "Toy Rider",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/toy-rider/index.html"
+    },
+    "trace": {
+      "title": "Trace",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/trace/index.html"
+    },
+    "traffic jam 3d": {
+      "title": "Traffic Jam 3D",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/traffic%20jam%203d/index.html"
+    },
+    "trash-clash": {
+      "title": "Trash Clash",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/trash-clash/27793.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/trash-clash/favicon.ico"
+      ]
+    },
+    "trecharoustrials": {
+      "title": "Treacherous Trials",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/trecharoustrials/index.html"
+    },
+    "trials-part-2": {
+      "title": "Trials Part 2",
+      "category": "Platformers",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/trials-part-2/index.html"
+    },
+    "truck slam": {
+      "title": "Truck Slam",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/truck%20slam/index.html"
+    },
+    "tungtung": {
+      "title": "Tung Sahur Horror",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/tungtung/index.html"
+    },
+    "two stunts": {
+      "title": "Two Stunts",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/two%20stunts/index.html"
+    },
+    "ultimate car driving": {
+      "title": "Ultimate Car Driving",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ultimate%20car%20driving/index.html"
+    },
+    "unfair undyne": {
+      "title": "Unfair Undyne",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/unfair%20undyne/index.html"
+    },
+    "unicycle hero": {
+      "title": "Unicycle Hero",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/unicycle%20hero/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/unicycle%20hero/favicon.png"
+      ]
+    },
+    "ut-last-breath": {
+      "title": "Last Breath",
+      "category": "Horror",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ut-last-breath/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ut-last-breath/icon-256.png"
+      ]
+    },
+    "volleyball challenge": {
+      "title": "Volleyball Challenge",
+      "category": "Sports",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/volleyball%20challenge/index.html"
+    },
+    "wheelie-bike": {
+      "title": "Wheelie Bike",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/wheelie-bike/index.html"
+    },
+    "winter falling": {
+      "title": "Winter Falling",
+      "category": "Strategy & Defense",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/winter%20falling/index.html"
+    },
+    "woodworm": {
+      "title": "Woodworm",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/woodworm/index.html"
+    },
+    "worst-time-sim": {
+      "title": "Worst Time Simulator",
+      "category": "Life & Sim",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/worst-time-sim/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/worst-time-sim/icon-256.png"
+      ]
+    },
+    "xor": {
+      "title": "Xor",
+      "category": "Puzzle",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/xor/index.html"
+    },
+    "you vs 100 skibidi": {
+      "title": "You vs 100 Skibidi Toilets",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/you%20vs%20100%20skibidi/index.html"
+    },
+    "zombie-derby-gyb": {
+      "title": "Zombie Derby",
+      "category": "Racing",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/zombie-derby-gyb/index.html"
+    },
+    "ztype": {
+      "title": "ZType",
+      "category": "Arcade",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/ztype/play.html"
+    },
+    "Hotline Miami": {
+      "title": "Hotline Miami",
+      "category": "Shooters & Action",
+      "entry": "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Hotline%20Miami/index.html",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/FrostsDev2/Website-Src-Files@main/Hotline%20Miami/icon.jpg"
+      ]
+    }
+  }
+}
