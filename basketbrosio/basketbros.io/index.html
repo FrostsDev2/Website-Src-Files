@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Basket Bros | Official Site</title>
+
+	<meta name="description" content="Online multiplayer basketball! Dunk all over your bros!" />
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="shortcut icon" type="image/png" href="./favicon.png">
+	<meta name="Keywords" content="Basketball, Play, Free, Online, Multiplayer, Games, IO, Sports, Dunk, Scrolling, Friends">
+	<meta name="author" content="Blue Wizard Digital">
+
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.basketbros.io" />
+	<meta property="og:title" content="Basket Bros" />
+	<meta property="og:description" content="Dunk all over your bros!" />
+	<meta property="og:image" content="https://basketbros.io/basketbros.jpg" />
+	<link rel="manifest" href="manifest.json">
+
+		<script type="text/javascript" src="./BasketBros.js?th=649"></script>
+
+	<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+			var meta = document.getElementById ("viewport");
+			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+		}
+		window.addEventListener('keydown', function(e) {
+			var tag = e.target.tagName;
+			if (tag !== 'INPUT' && tag !== 'TEXTAREA') {
+				e.preventDefault();
+			}
+		});
+		var aCo = 'US';
+	</script>
+
+	<style>
+		html,body { margin: 0; padding: 0; height: 100%; background: #000000; color: orange; height: 100%; width: 100%; height: 100vh; width: 100vw; margin:0; padding:0;}
+		.body::-webkit-scrollbar { /* WebKit */
+ 			width: 0px;
+		}
+		#openfl-content { background: #000000; width: 100%; height: 100%; }
+		#spinner {
+			-webkit-transform-origin: 50% 50%;
+			-moz-transform-origin: 50% 50%;
+			-o-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			 width: 82px;
+			 height: 81px;
+			-webkit-animation: spin1 2s infinite linear;
+			-moz-animation: spin1 2s infinite linear;
+			-o-animation: spin1 2s infinite linear;
+			-ms-animation: spin1 2s infinite linear;
+			animation: spin1 2s infinite linear;
+		}
+
+		/* Main content styling */
+		#more {
+			display: flex;
+			justify-content: space-between;
+			background-color: #1a1a1a;
+			padding: 40px;
+			border-top: 0px solid #444;
+			color: #fff;
+			font-family: 'Arial', sans-serif;
+		}
+
+		.info-box {
+			width: 48%;
+			background-color: #222;
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+		}
+
+		h3 {
+			font-size: 24px;
+			color: #ffa500;
+			margin-bottom: 15px;
+		}
+
+		p, b {
+			line-height: 1.6;
+			font-size: 16px;
+		}
+
+		p {
+			margin-bottom: 10px;
+		}
+
+		b {
+			color: #ffd700;
+		}
+
+		/* unvisited link */
+		a:link {
+		color: #ffd700;
+		}
+
+		/* visited link */
+		a:visited {
+		color: #ffd700;
+		}
+
+		/* mouse over link */
+		a:hover {
+		color: #ffd700;
+		}
+
+		/* selected link */
+		a:active {
+		color: #ffd700;
+		}
+
+		.notch-top-left {
+			width: 20px;
+			height: 20px;
+			background-color: var(--background-color, #1a1a1a);
+			position: absolute;
+			top: -10px;
+			left: -10px;
+			clip-path: polygon(100% 0, 0 100%, 100% 100%);
+		}
+
+		/* Footer styling */
+		footer {
+			background-color: #000;
+			padding: 20px 0;
+			text-align: center;
+			color: #ccc;
+			font-size: 14px;
+			border-top: 2px solid #444;
+			margin-top: 40px;
+			font-family: 'Arial', sans-serif;
+			border: 0;
+		}
+
+  	</style>
+
+	<!-- Ads and analytics removed. gtag is kept as a stub because SendEvent()
+	     calls it. -->
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){ window.dataLayer.push(arguments); }
+	</script>
+
+	<!-- Interstitial/video ad SDK removed. -->
+	<script>
+		// Ad system removed: the game's ShowAdBreak / ShowVideo calls are
+		// completed instantly below so gameplay is never blocked on ads.
+	</script>
+
+	<script>
+	function ShowVideo(theUnitName=null)
+	{
+		// Ads removed: complete the video ad immediately so gameplay continues.
+		console.log('SHOW_VIDEO:'+theUnitName);
+		Main.DoneVideoAd(true);
+		window.focus();
+		window.document.getElementById('openfl-content').focus();
+	}
+	</script>
+
+	<!-- Firebase App (the core Firebase SDK) -->
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+	<!-- Firebase Authentication -->
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+	<!-- Firebase Firestore (Database) -->
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+	<script>
+		// Your web app's Firebase configuration
+  		const firebaseConfig = {
+			apiKey: "AIzaSyDeQ1CV2ZfZg4SJlu9CEWfpHG3--xpt-oU",
+			authDomain: "basket-bros-43586.firebaseapp.com",
+			projectId: "basket-bros-43586",
+			storageBucket: "basket-bros-43586.appspot.com",
+			messagingSenderId: "179647849243",
+			appId: "1:179647849243:web:87b99f44ca23f8a11729be"
+  		};
+
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		const auth = firebase.auth();
+		const db = firebase.firestore();
+		var userData = "";
+
+		function triggerSignIn()
+		{
+			var provider = new firebase.auth.GoogleAuthProvider();
+			auth.signInWithPopup(provider);
+		}
+
+		// Save game data function
+		function saveGameData(gameData) {
+			console.log('saving gamedata:' + gameData);
+			var userId = auth.currentUser.uid;
+			userData = gameData;
+			db.collection('users').doc(userId).set({
+				gameData: gameData
+			}).then(function() {
+				console.log('Game data saved');
+			}).catch(function(error) {
+				console.error('Error saving game data:', error);
+			});
+		}
+
+		// Load game data function
+		function loadGameData() { return userData; }
+
+		function loadGameDataAsync() {
+			var userId = auth.currentUser.uid;
+			console.log("Auth: Loading Game Data Async User ID:" + userId);
+			db.collection('users').doc(userId).get().then(function(doc) {
+				console.log("Auth: Checking for game data");
+				if (doc.exists) {
+					console.log("Auth: Checking for game data");
+					userData = doc.data().gameData;
+					console.log('Auth: Load Game data:', doc.data().gameData);
+					if (typeof Main != "undefined")
+					{
+						Main.LoadDataComplete();
+					}
+				} else {
+				console.log('Auth: No such document!');
+				}
+			}).catch(function(error) {
+				console.error('Error loading game data:', error);
+			});
+		}
+
+   // Firebase auth state observer
+   		auth.onAuthStateChanged(function(user) {
+      		if (user) {
+				loadGameDataAsync();
+				SendEvent('event', 'sign_in');
+				console.log('user signed in');
+			} else {
+				console.log('No user signed in');
+				SendEvent('event', 'sign_out');
+			}
+    	});
+
+		function signOut()
+		{
+			auth.signOut().then(() => {
+				Main.SignOutComplete();
+				console.log('signed out');
+			});
+		}
+
+		function isUserLoggedIn() {
+			return auth.currentUser !== null;
+		}
+	</script>
+
+</head>
+<body style="overflow:hidden;">
+	<noscript>Enable JavaScript bro!</noscript>
+		<script>
+
+		//alert("Globals:"+localStorage.getItem("/:Globals").length);
+		/////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////
+		var url = window.location.href;
+		if(url.includes("www."))
+		{
+				url = url.replace("www.","");
+
+				var f = document.createElement('form');
+				f.action=url;
+				f.method='POST';
+				var i=document.createElement('input');
+				i.type='hidden';
+				i.name='FGlobals';
+				i.value=localStorage.getItem("/:Globals");
+				f.appendChild(i);
+
+				document.body.appendChild(f);
+				f.submit();
+		}
+		else
+		{
+				var aPost = "";
+								var aStorage = localStorage.getItem("/:Globals");
+				var aLen = 0;
+				if(aStorage != null && aStorage.length > 0)
+				{
+						aLen = aStorage.length;
+				}
+				if(aPost.length > aLen) localStorage.setItem("/:Globals", aPost);
+				if(aPost.length > 0 && aPost.length == aLen) localStorage.setItem("/:Globals", aPost);
+		}
+		/////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////
+
+	</script>
+
+    <div id="loading" style="position: absolute; z-index: 15; top: 60%; left: 50%; transform: translate(-50%, 0); background: black;">
+			<center><img src="assets/loading4.png"><br/>
+			<img src="assets/fbro.png">
+			<img src="assets/bbbro.png">
+			<img src="assets/sbro.png">
+			<img src="assets/wbro.png">
+			<img src="assets/kbro.png">
+			<img src="assets/bbro.png">
+			</center>
+	</div>
+
+	<div id="game2" style="width: 100%; height: 100%; ">
+		<div id="openfl-content"  onblur="window.focus();"
+												style="width: 100%; float:left;"
+									>
+			<script type="text/javascript">
+				lime.embed ("BasketBros", "openfl-content", 0, 0, { parameters: {} });
+			</script>
+		</div>
+		<div id="preroll" style="width: 960px; height: 540px; display: none; position: absolute; top: 50%; left: 50%; z-index: 100; transform: translate(-50%, -50%);">
+		</div>
+
+	</div>
+	<br/>
+	<div tabindex="-1" id="more">
+				<div class="info-box">
+			<h3>About Basket Bros</h3>
+			<p>Fun, fast-paced 1 on 1 basketball game with lots of action. Pick from a variety of characters and let the play begin. Go for crazy dunks, hit the stepback 3, or maybe even punch out your opponent!</p>
+			<p>The controls are very simple: Use either the arrow keys or WASD to control your baller. Jump by pressing the up arrow, and jump again to shoot. Enter/Space will attack if you are on defense.</p>
+			<br/>
+					</div>
+		<div class="info-box">
+			<h3>FAQ</h3>
+						<b>Why isn&#039;t the game loading?</b>
+			<p>You should check your internet connection and make sure our site isn't blocked.</p>
+						<b>How do I play?</b>
+			<p>Just hop in and go dunk on some fools!</p>
+						<b>Which browser should I use?</b>
+			<p>You should use Chrome. It is the only browser guaranteed to work. Basket Bros has also been tested to work on Firefox and Safari, but not guaranteed.</p>
+									<b>Are there more Bros games?</b>
+			<p>Yes! Check out <a tabindex="-1" href="https://baseballbros.io">Baseball Bros</a>, <a tabindex="-1" href="https://footballbros.io">Football Bros</a>, <a tabindex="-1" href="https://soccerbros.gg">Soccer Bros</a></p>
+					</div>
+			</div>
+	<footer tabindex="-1">
+		<div class="footer-links">
+			<a tabindex="-1" href="https://bluewizard.com">Copyright 2026 Blue Wizard Digital</a> |
+			<a tabindex="-1" href="https://bluewizard.com/terms/">Terms of Service</a> |
+			<a tabindex="-1" href="https://bluewizard.com/privacypolicy/">Privacy Policy</a>
+		</div>
+	</footer>
+	<script>
+		// Ads removed. These stubs keep the game's external API working
+		// while no ad SDK is loaded. ShowVideo/ShowAdBreak complete
+		// immediately so gameplay is never blocked.
+
+		var lastUnitPlayed = "";
+		var adPrefix = "basketbros-io";
+		var prerollId = "basketbros_preroll";
+
+		function refreshTag(theTag) {}
+
+		function ShowUnitBannerAd(config) {}
+
+		function SetCGInviteLink() {}
+
+		function ShowAd1() {}
+		function ShowAd2() {}
+		function ShowAd3() {}
+		function ShowAd4() {}
+		function ShowAd6() {}
+		function ShowAd7() {}
+		function ShowAd8() {}
+		function ShowAd9() {}
+		function ShowAd10() {}
+
+		function ShowAdBreak() {
+			Main.DoneInterstitialAd(false);
+		}
+
+		document.getElementById("openfl-content").addEventListener("wheel", doScroll);
+		document.getElementById("more").addEventListener("wheel", doScroll);
+		function doScroll(event) {
+  			window.scroll(0, window.scrollY + event.deltaY);
+		};
+
+		setInterval(function () {
+			if (document.activeElement.tagName == "IFRAME") {
+        		document.activeElement.blur();
+				document.getElementById('openfl-content').focus();
+    		}
+		}, 1000);
+
+		var sid = "een8hmqk4ucbh2if1sh4tckllh";
+		var lastStatusUpdate = 0;
+		var statusReq = null;
+		function updateStatus(fromEvent = false)
+		{
+			var now = Date.now();
+			if (now - lastStatusUpdate < 30000) return;
+			lastStatusUpdate = now;
+			var aStr = "recordsession.php?s="+sid;
+			if(fromEvent == true)  aStr = aStr + "&e=1"
+			if (statusReq == null) statusReq = new XMLHttpRequest();
+			statusReq.abort();
+			statusReq.open("GET", aStr);
+			statusReq.send();
+		}
+		function SendEvent(theEvent, theAction, theParms = '') {
+			if(theParms == '') {
+				gtag(theEvent, theAction);
+			} else {
+				gtag(theEvent, theAction, theParms);
+			}
+			updateStatus(true);
+			console.log("Sending event: " + theEvent + "/" + theAction + "/" + theParms);
+		}
+		updateStatus(true);
+
+		function HideAllAds(hideSides)
+		{
+			console.log("HideAllAds");
+		}
+
+		function HideAd(divName, justClear) {
+			if (justClear === undefined) justClear = false;
+			var aDiv = document.getElementById(divName);
+			if (aDiv != null) {
+				if (!justClear) {
+					aDiv.style.display = "none";
+					aDiv.style.visibility = "hidden";
+				}
+				aDiv.innerHTML = " ";
+			}
+		}
+
+		function killAdSubframes() {}
+
+		function ShowAdPosition(divName, theX, theY, xAlign, yAlign, doRefresh, screenW, screenH) {
+			// Ads removed: nothing to show.
+		}
+
+		function GamePlayStart() {
+			if(typeof gCrazySDK !== 'undefined')
+			{
+				console.log("GamePlayStart");
+				gCrazySDK.gameplayStart();
+			}
+		}
+
+		function GamePlayStop() {
+			if(typeof gCrazySDK !== 'undefined')
+			{
+				console.log("GamePlayStop");
+				gCrazySDK.gameplayStop();
+			}
+		}
+
+		function HappyTime() {
+			if(typeof gCrazySDK !== 'undefined')
+			{
+				console.log("happytime");
+				gCrazySDK.happytime();
+			}
+		}
+	</script>
+
+	<script>
+		var __tideJoinDebug = true;
+		window.addEventListener('message', function(ev) {
+			var d;
+			try { d = typeof ev.data === 'string' ? JSON.parse(ev.data) : ev.data; } catch(e) { return; }
+			if (!d || !d.__tide_join) return;
+			var words = String(d.__tide_join);
+			var attempts = 0, started = false;
+			function doJoin() {
+				if (started) return;
+				if (++attempts > 600) { console.log('[tide-join] gave up after 600 retries (2.5min)'); return; }
+				var M = window.Main;
+				var children = (M && M.children && M.children.length) ? M.children : null;
+				if (!children && M && M.thisMain && M.thisMain.children && M.thisMain.children.length) {
+					children = M.thisMain.children;
+				}
+				if (!children && M && document.querySelector('canvas')) {
+					try { document.querySelector('canvas').click(); } catch(e) {}
+				}
+				if (!children) { setTimeout(doJoin, 250); return; }
+				for (var i = 0; i < children.length; i++) {
+					var ts = children[i];
+					if (ts && typeof ts.StartOnlineGame === 'function') {
+						console.log('[tide-join] SUCCESS calling StartOnlineGame with: ' + words);
+						started = true;
+						ts.StartOnlineGame(words);
+						return;
+					}
+				}
+				setTimeout(doJoin, 250);
+			}
+			doJoin();
+		});
+		console.log('[tide-join] listener registered');
+	</script>
+</body>
+</html>
