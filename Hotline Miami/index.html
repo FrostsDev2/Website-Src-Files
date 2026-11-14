@@ -1,0 +1,420 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>HOTLINE MIAMI</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #fff;
+            font-family: 'Press Start 2P', monospace;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        /* in levels the game draws its own crosshair; menus/pause need the system cursor */
+        html.in-level,
+        html.in-level body,
+        html.in-level canvas {
+            cursor: none !important;
+        }
+        
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, #ff0080, #00ffe5);
+            mix-blend-mode: screen;
+            opacity: 0.15;
+            animation: flicker 1s infinite steps(2);
+            z-index: 0;
+        }
+        
+        @keyframes flicker {
+            0%,
+            100% {
+                opacity: 0.15;
+            }
+            50% {
+                opacity: 0.05;
+            }
+        }
+        
+        canvas {
+            display: block;
+            /* fit 1920x1080 into the viewport, keep 16:9 */
+            width: min(100vw, calc(100vh * 16 / 9));
+            height: min(100vh, calc(100vw * 9 / 16));
+            border: none;
+            image-rendering: pixelated;
+            z-index: 1;
+            position: relative;
+        }
+        
+        #loading-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #ff0080;
+            text-shadow: 2px 2px #00ffe5, -2px -2px #ffea00;
+            animation: pulse 0.6s infinite alternate, glitch 1s infinite;
+            letter-spacing: 2px;
+            pointer-events: none;
+            z-index: 2;
+        }
+        
+        @keyframes pulse {
+            from {
+                transform: translate(-50%, -50%) scale(1);
+            }
+            to {
+                transform: translate(-50%, -50%) scale(1.1);
+            }
+        }
+        
+        @keyframes glitch {
+            0% {
+                text-shadow: 2px 2px #00ffe5, -2px -2px #ffea00;
+            }
+            20% {
+                text-shadow: -2px 2px #00ffe5, 2px -2px #ffea00;
+            }
+            40% {
+                text-shadow: 2px -2px #00ffe5, -2px 2px #ffea00;
+            }
+            60% {
+                text-shadow: -2px -2px #00ffe5, 2px 2px #ffea00;
+            }
+            80% {
+                text-shadow: 0px 0px #00ffe5, 0px 0px #ffea00;
+            }
+            100% {
+                text-shadow: 2px 2px #00ffe5, -2px -2px #ffea00;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        const OriginalXHR = window.XMLHttpRequest;
+
+        function InterceptedXHR() {
+            const xhr = new OriginalXHR();
+
+            let blocked = false;
+
+            const originalOpen = xhr.open;
+            xhr.open = function(method, url, async, user, password) {
+                blocked = (url.endsWith("steamon") || url.endsWith("achievements.dat") || url.endsWith("mask.tmp") || url.endsWith("surfaces") || url.endsWith("steamoff") || url.endsWith("skip") || url.endsWith("restartmusic") || url.endsWith("xbox") || url.endsWith("volume.dat") || url.endsWith("keyboard.dat") || url.endsWith("volume.dat") || url.endsWith("blood") || url.endsWith("volume.dat") || url.endsWith("alienware"));
+                return originalOpen.apply(this, arguments);
+            };
+
+            const originalSend = xhr.send;
+            xhr.send = function(body) {
+                if (blocked) {
+                    // simulate async 404 response
+                    setTimeout(() => {
+                        this.readyState = 4;
+                        this.status = 404;
+                        this.statusText = "Not Found";
+                        this.response = "Not Found";
+                        this.responseText = "Not Found";
+
+                        if (typeof this.onreadystatechange === "function") {
+                            this.onreadystatechange();
+                        }
+                        if (typeof this.onload === "function") {
+                            this.onload();
+                        }
+                    }, 0);
+                    return;
+                }
+                return originalSend.apply(this, arguments);
+            };
+
+            return xhr;
+        }
+
+        window.XMLHttpRequest = function() {
+            return new InterceptedXHR();
+        };
+    </script>
+
+
+
+    <div class="gm4html5_div_class" id="gm4html5_div_id">
+        <canvas id="canvas" width="1920" height="1080">
+            <p>Your browser doesn't support HTML5 canvas.</p>
+        </canvas>
+    </div>
+    <div id="loading-text" style="display: none;"> </div>
+    <script type="text/javascript" src="html5game/HotlineMiami.js?PPPYB=938827663"></script>
+    <script>
+        // Runtime patches for the HTML5 runner (game code calls these globals by name).
+
+        // Shift-look measures the mouse against browser_width/height, but mouse
+        // coords are relative to the (CSS-scaled) canvas: use the canvas size.
+        _iP1 = () => canvas.clientWidth || _t03();
+        _BQ1 = () => canvas.clientHeight || _u03();
+
+        // The runner reads event.which. With an IME active (e.g. Vietnamese Telex,
+        // where W/A/S/D are tone keys) keydown/keyup can report 229 instead, so a
+        // key registers as pressed but never released and the player drifts.
+        // Rewrite which/keyCode from the physical key, and release everything on blur.
+        (() => {
+            const named = {
+                Space: 32, Enter: 13, NumpadEnter: 13, Escape: 27, Tab: 9, Backspace: 8,
+                ShiftLeft: 16, ShiftRight: 16, ControlLeft: 17, ControlRight: 17, AltLeft: 18, AltRight: 18,
+                ArrowLeft: 37, ArrowUp: 38, ArrowRight: 39, ArrowDown: 40
+            };
+            const toKeyCode = code => {
+                if (!code) return 0;
+                if (named[code]) return named[code];
+                let m;
+                if ((m = /^Key([A-Z])$/.exec(code))) return m[1].charCodeAt(0);
+                if ((m = /^Digit(\d)$/.exec(code))) return 48 + +m[1];
+                if ((m = /^Numpad(\d)$/.exec(code))) return 96 + +m[1];
+                if ((m = /^F(\d{1,2})$/.exec(code))) return 111 + +m[1];
+                return 0;
+            };
+            const held = new Set();
+            const normalize = e => {
+                const kc = toKeyCode(e.code);
+                // the Options > Controls remap reads this (its own keyboard_lastkey is always 0 here)
+                if (e.type === "keydown") window.__hmLastKey = kc || e.which;
+                if (!kc) return;
+                Object.defineProperty(e, "which", { get: () => kc });
+                Object.defineProperty(e, "keyCode", { get: () => kc });
+                if (e.type === "keydown") held.add(kc);
+                else held.delete(kc);
+            };
+            window.addEventListener("keydown", normalize, true);
+            window.addEventListener("keyup", normalize, true);
+            window.addEventListener("blur", () => {
+                held.forEach(kc => window.onkeyup && window.onkeyup({ which: kc, keyCode: kc, preventDefault() {} }));
+                held.clear();
+            });
+        })();
+
+        // Hide the system cursor only while a level is running (a player exists).
+        setInterval(() => {
+            let inLevel = false;
+            try { inLevel = _Eg1(79) > .5; } catch (e) {}
+            document.documentElement.classList.toggle("in-level", inLevel);
+        }, 100);
+
+        // file_text_close() only writes a file if something was written to it, but the
+        // game saves an empty "stats.sav" and later reads it with while(!file_text_eof()):
+        // write empty files like the desktop runner, and treat a bad handle as EOF so
+        // such loops can't hang the page.
+        // The chosen mask is written to working_directory+"\mask.nfo" but read back
+        // (after a restart) as "mask.nfo" - the same file on desktop, not here.
+        (() => {
+            const origClose = _iq1, origEof = _LJ1, origOpenRead = _Dv1;
+            _Dv1 = f => origOpenRead(f === "mask.nfo" ? _wg1._Fp1 + "\\mask.nfo" : f);
+            _iq1 = h => {
+                const f = _dY2._sK2(h);
+                if (f && f._gY2) f._5Y2 = true;
+                return origClose(h);
+            };
+            _LJ1 = h => _dY2._sK2(h) ? origEof(h) : true;
+        })();
+
+        // game_save()/game_load() are stubs on HTML5, but the game restarts with them:
+        // it saves "tempsave.sav" at each floor (loaded on R after death) and
+        // "restart.dat" at level start (Pause > Restart). Keep the snapshots in memory:
+        // every visited room's instances plus the GML globals, like the desktop runner.
+        (() => {
+            const saves = {};
+            let pending = null;
+            const key = f => String(f).split(/[\\/]/).pop().toLowerCase();
+            // deep-copy GML data (arrays, plain objects, bbox rects); runner objects stay shared
+            const copy = (v, seen) => {
+                if (v === null || typeof v !== "object") return v;
+                if (seen.has(v)) return seen.get(v);
+                let c;
+                if (Array.isArray(v)) c = [];
+                else if (v instanceof _hX2 || Object.getPrototypeOf(v) === Object.prototype) c = Object.create(Object.getPrototypeOf(v));
+                else return v;
+                seen.set(v, c);
+                for (const k of Object.keys(v)) c[k] = copy(v[k], seen);
+                return c;
+            };
+            const copyObj = o => {
+                const seen = new Map(), c = Object.create(Object.getPrototypeOf(o));
+                for (const k of Object.keys(o)) c[k] = copy(o[k], seen);
+                return c;
+            };
+            const live = list => list._NK2.filter(i => i && !i._Jh1);
+
+            _1H1 = fname => {
+                _XA2._k25();
+                const rooms = [];
+                _i93._dh3.forEach((r, id) => {
+                    if (!r || (r !== _XA2 && !r._x15)) return;
+                    rooms.push({
+                        id,
+                        views: r._DJ2.map(copyObj),
+                        active: live(r._K63).map(copyObj),
+                        inactive: live(r._073).map(copyObj)
+                    });
+                });
+                saves[key(fname)] = { room: _i93._dh3.indexOf(_XA2), rooms, global: copyObj(global) };
+            };
+
+            // like the desktop runner, load at the end of the step (as a room change)
+            _k42 = fname => {
+                const s = saves[key(fname)];
+                if (!s) return;
+                pending = s;
+                _eh3 = s.room;
+            };
+
+            const origRoomGoto = _L33;
+            _L33 = function (roomId, gameStart) {
+                const s = pending;
+                pending = null;
+                if (!s || gameStart || roomId !== s.room) return origRoomGoto.apply(this, arguments);
+
+                // drop every instance (all rooms) and reset all rooms, as game_restart does
+                _Db5();
+                _i93._dh3.forEach(r => r && r._Og3 && r._3E4(r._Og3));
+                for (const k of Object.keys(s.global)) global[k] = copy(s.global[k], new Map());
+
+                let notCreated = [];
+                for (const rs of s.rooms) {
+                    const r = _i93._dh3[rs.id];
+                    r._x15 = true;
+                    r._DJ2 = rs.views.map(copyObj);
+                    for (const si of rs.active) {
+                        const inst = copyObj(si);
+                        _q43._EK2(inst);
+                        r._K63._EK2(inst);
+                        if (rs.id === s.room && !inst._vb5) notCreated.push(inst);
+                    }
+                    for (const si of rs.inactive) {
+                        const inst = copyObj(si);
+                        _q43._EK2(inst);
+                        r._073._EK2(inst);
+                    }
+                }
+
+                // enter the saved room the way a visited persistent room is re-entered,
+                // without room end/start events (game_load doesn't fire them)
+                const room = _i93._dh3[s.room], persistent = room._w15;
+                room._w15 = true;
+                _q43._LB2 = function (ev) {
+                    if (ev === _Tq4 || ev === _Rq4) return;
+                    return Object.getPrototypeOf(this)._LB2.apply(this, arguments);
+                };
+                try {
+                    origRoomGoto.call(this, s.room, false);
+                } finally {
+                    delete _q43._LB2;
+                    room._eL4(persistent);
+                }
+
+                // saved mid room-creation: finish create events for instances that hadn't run them
+                for (const v of notCreated) {
+                    const p = room._Og3._6I.find(p => p.id == v.id) || {};
+                    v._vb5 = true;
+                    p._ZH && p._ZH(v);
+                    v._LB2(_E63, 0, v, v);
+                    p._zb5 && p._zb5(v);
+                    v._LB2(_F63, 0, v, v);
+                }
+            };
+        })();
+
+        // audio_create_stream() is a stub on HTML5, so no music ever played.
+        // Stream the .ogg files with <audio> and route the music calls to them.
+        (() => {
+            const STREAM_BASE = 100000;
+            const streams = {};
+            const pending = new Set();
+            let nextId = STREAM_BASE;
+            const clamp = v => Math.max(0, Math.min(1, +v || 0));
+            const play = a => {
+                const p = a.play();
+                if (p && p.catch) p.catch(() => pending.add(a)); // blocked until a user gesture
+            };
+            const resume = () => {
+                pending.forEach(a => { if (a.dataset.playing) play(a); });
+                pending.clear();
+            };
+            ["keydown", "mousedown", "touchstart"].forEach(t => window.addEventListener(t, resume, true));
+
+            const origPlay = _ek1, origStop = _du1, origGain = _hw1;
+            _gw1 = file => {
+                const name = String(file).split(/[\\/]/).pop();
+                const a = new Audio("html5game/" + name);
+                a.preload = "auto";
+                streams[nextId] = a;
+                return nextId++;
+            };
+            _iw1 = id => {
+                const a = streams[id];
+                if (!a) return -1;
+                a.pause();
+                a.removeAttribute("src");
+                pending.delete(a);
+                delete streams[id];
+                return 1;
+            };
+            _ek1 = function (id, priority, loop) {
+                const a = streams[id];
+                if (!a) return origPlay.apply(this, arguments);
+                a.loop = !!loop;
+                a.currentTime = 0;
+                a.dataset.playing = "1";
+                play(a);
+                return id;
+            };
+            _du1 = function (id) {
+                const a = streams[id];
+                if (!a) return origStop.apply(this, arguments);
+                a.pause();
+                delete a.dataset.playing;
+                pending.delete(a);
+            };
+            _hw1 = function (id, gain) {
+                const a = streams[id];
+                if (!a) return origGain.apply(this, arguments);
+                a.volume = clamp(gain);
+            };
+        })();
+    </script>
+    <script>
+        window.onload = () => {
+            const loader = document.getElementById("loading-text");
+            loader.style.display = "block";
+            GameMaker_Init();
+            // keep keyboard focus inside the game frame so Space/WASD reach the game
+            document.addEventListener("mousedown", () => window.focus(), true);
+            setTimeout(() => loader.style.display = "none", 4000);
+        };
+    </script>
+
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"466cade843754106bbf20c4f18f202b6","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+
+</html>
