@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Soccer Bros 🎮 Play Now on the Official Site</title>
+    <meta name="description" content="Online multiplayer soccer! Score goals on your bros!">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <meta name="Keywords" content="Soccer, Play, Free, Online, Multiplayer, Games, IO, Sports, Scrolling, Friends">
+    <meta name="author" content="Blue Wizard Digital">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://soccerbros.gg">
+    <meta property="og:title" content="Soccer Bros">
+    <meta property="og:description" content="Online multiplayer Soccer! Score goals on your bros!">
+    <meta property="og:image" content="https://soccerbros.gg/kick/splash.jpg">
+    <link rel="manifest" href="manifest.json">
+
+    <script type="text/javascript" src="./SoccerBros.js?th=1784915592"></script>
+
+    <!-- Ads and analytics removed. gtag is kept as a stub because SendEvent()
+         calls it. -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ window.dataLayer.push(arguments); }
+    </script>
+
+    <!-- Ad SDKs removed. FireBase account saving removed. -->
+    <script>
+        // Ad system + Firebase removed: the game's ShowAdBreak / ShowVideo
+        // calls complete instantly below so gameplay is never blocked. The
+        // game reads isUserLoggedIn()/loadGameData() from its Save menu, so
+        // benign stubs keep that path from throwing.
+    </script>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            background: #000;
+            color: orange;
+			overflow: hidden;
+        }
+        #openfl-content { background: #000; width: 100%; height: 100%; }
+        #loading {
+            position: absolute;
+            z-index: 15;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, 0);
+            background: #000;
+            text-align: center;
+        }
+        #spinner {
+            transform-origin: 50% 50%;
+            width: 82px;
+            height: 81px;
+            animation: spin1 2s infinite linear;
+        }
+        .ad-unit {
+            position: absolute !important;
+            top: 30px;
+            left: 30px;
+            z-index: 100;
+            overflow: hidden;
+            visibility: hidden;
+            text-align: center;
+        }
+        #preroll {
+            width: 960px;
+            height: 540px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 100;
+            display: none;
+        }
+        @keyframes spin1 {
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <noscript>Enable JavaScript bro!</noscript>
+    <div id="loading">
+        <img src="assets/loading4.png"><br>
+        <img src="assets/fbro.png">
+        <img src="assets/bbbro.png">
+        <img src="assets/sbro.png">
+        <img src="assets/wbro.png">
+        <img src="assets/kbro.png">
+        <img src="assets/kartbro.png">
+        <img src="assets/bbro.png">
+    </div>
+    <div id="game2" style="width: 100%; height: 100%;">
+        <div id="openfl-content" style="width: 100%; float: left;">
+            <script> lime.embed("SoccerBros", "openfl-content", 0, 0, { parameters: {} }); </script>
+        </div>
+        <div id="preroll"></div>
+        <div id="soccerbros-gg_160x600" class="ad-unit" style="width: 160px; height: 600px;"></div>
+        <div id="soccerbros-gg_160x600_2" class="ad-unit" style="width: 160px; height: 600px;"></div>
+        <div id="soccerbros-gg_300x250" class="ad-unit" style="width: 300px; height: 250px;"></div>
+        <div id="soccerbros-gg_300x250_2" class="ad-unit" style="width: 300px; height: 250px;"></div>
+        <div id="soccerbros-gg_336x280" class="ad-unit" style="width: 336px; height: 280px;"></div>
+        <div id="soccerbros-gg_336x280_2" class="ad-unit" style="width: 336px; height: 280px;"></div>
+        <div id="soccerbros-gg_728x90" class="ad-unit" style="width: 728px; height: 90px;"></div>
+        <div id="soccerbros-gg_728x90_m" class="ad-unit" style="width: 728px; height: 90px;"></div>
+        <div id="soccerbros-gg_970x250" class="ad-unit" style="width: 970px; height: 250px;"></div>
+    </div>
+
+    <script>
+        function initEventListeners() {
+            window.addEventListener('touchmove', (e) => e.preventDefault(), { capture: false, passive: false });
+            window.addEventListener('keydown', (e) => {
+                var tag = e.target.tagName;
+                if (tag !== 'INPUT' && tag !== 'TEXTAREA') e.preventDefault();
+            });
+            if (window.devicePixelRatio > 2) {
+                document.getElementById('viewport').setAttribute('content', `width=device-width, initial-scale=${2 / window.devicePixelRatio}, user-scalable=no`);
+            }
+            var el = document.getElementById('openfl-content');
+            if (el) {
+                el.addEventListener('blur', () => el.focus());
+                el.addEventListener('focusout', () => el.focus());
+            }
+        }
+
+        var aCo = "US";
+
+        // The game injects aiptag.cmd.display.push(...) into ad unit divs via
+        // Main.ShowAd; keep a benign queue so that never throws (nothing ever
+        // drains it). aipDisplayTag is intentionally NOT defined - the game
+        // guards every call site with typeof checks, so leaving it undefined
+        // skips the ad plumbing entirely.
+        window.aiptag = window.aiptag || { cmd: { display: [], player: [] } };
+
+        // Firebase removed: stub the two functions the game reads from its
+        // Save/Log-in menu so they never throw.
+        function isUserLoggedIn() { return false; }
+        function loadGameData() { return null; }
+        function loadGameDataAsync() {}
+
+        function HideSetupAds() {}
+
+        function refreshTag(theTag) {}
+
+        function ShowUnitBannerAd(config) {}
+
+        function SetCGInviteLink() {}
+
+        function ShowAd1() {}
+        function ShowAd2() {}
+        function ShowAd3() {}
+        function ShowAd4() {}
+        function ShowAd6() {}
+        function ShowAd7() {}
+        function ShowAd8() {}
+        function ShowAd9() {}
+        function ShowAd10() {}
+
+        // ASC ad layer removed.
+        function ShowAscAd() {}
+        function HideAscAd(divName, justClear) {}
+        function AscManageAdSizes(shouldHide) {}
+
+        function ShowAdBreak() {
+            if (typeof Main !== 'undefined' && Main.DoneInterstitialAd) Main.DoneInterstitialAd(false);
+        }
+
+        function ShowVideo(theUnitName) {
+            if (typeof Main !== 'undefined' && Main.DoneVideoAd) {
+                Main.DoneVideoAd(true);
+            }
+            window.focus();
+            var el = document.getElementById('openfl-content');
+            if (el) el.focus();
+        }
+
+        function HideAllAds(hideSides) {}
+
+        function HideAd(divName, justClear) {
+            if (justClear === undefined) justClear = false;
+            var aDiv = document.getElementById(divName);
+            if (aDiv != null) {
+                if (!justClear) {
+                    aDiv.style.display = "none";
+                    aDiv.style.visibility = "hidden";
+                }
+                aDiv.innerHTML = " ";
+            }
+        }
+
+        function killAdSubframes() {}
+
+        function ShowAdPosition(divName, theX, theY, xAlign, yAlign, doRefresh, screenW, screenH) {
+            // Ads removed: nothing to show.
+        }
+
+        function GamePlayStart() {}
+
+        function GamePlayStop() {}
+
+        function HappyTime() {}
+
+        function updateStatus(fromEvent) {}
+
+        function SendEvent(theEvent, theAction, theParms) {
+            if (theParms == '') {
+                gtag(theEvent, theAction);
+            } else {
+                gtag(theEvent, theAction, theParms);
+            }
+            updateStatus(true);
+        }
+
+        initEventListeners();
+    </script>
+
+    <script>
+        window.__tideJoinDebug = true;
+        window.addEventListener('message', function(ev) {
+            var d;
+            try { d = typeof ev.data === 'string' ? JSON.parse(ev.data) : ev.data; } catch(e) { return; }
+            if (!d || !d.__tide_join) return;
+            var words = String(d.__tide_join);
+            var attempts = 0, started = false;
+            function doJoin() {
+                if (started) return;
+                if (++attempts > 600) { console.log('[tide-join] gave up after 600 retries (2.5min)'); return; }
+                try {
+                    if (window.__tideBridge && typeof window.__tideBridge === 'function') {
+                        window.__tideBridge('join', words);
+                    }
+                } catch(e) {}
+                var M = window.Main;
+                var children = (M && M.children && M.children.length) ? M.children : null;
+                if (!children && M && M.thisMain && M.thisMain.children && M.thisMain.children.length) {
+                    children = M.thisMain.children;
+                }
+                if (!children && M && document.querySelector('canvas')) {
+                    try { document.querySelector('canvas').click(); } catch(e) {}
+                }
+                if (!children) { setTimeout(doJoin, 250); return; }
+                for (var i = 0; i < children.length; i++) {
+                    var ts = children[i];
+                    if (ts && typeof ts.StartOnlineGame === 'function') {
+                        console.log('[tide-join] SUCCESS calling StartOnlineGame with: ' + words);
+                        started = true;
+                        ts.StartOnlineGame(words);
+                        return;
+                    }
+                }
+                setTimeout(doJoin, 250);
+            }
+            doJoin();
+        });
+        console.log('[tide-join] listener registered');
+    </script>
+</body>
+</html>
